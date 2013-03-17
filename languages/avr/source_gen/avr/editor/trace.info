@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeId="6094805849425646633" modelId="r:93992ec2-b968-4eda-beb0-056b8ccda09e(avr.editor)">
+    <nodeInfo nodeId="6094805849425646633" fileName="Arduino_Uno_Editor.java" startLine="13" startPosition="79" endLine="14" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6094805849425646635" fileName="Arduino_Uno_Editor.java" startLine="17" startPosition="89" endLine="18" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6094805849425646635" fileName="Arduino_Uno_Editor.java" startLine="18" startPosition="96" endLine="19" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6094805849425646635" fileName="Arduino_Uno_Editor.java" startLine="18" startPosition="96" endLine="19" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6094805849425646635" fileName="Arduino_Uno_Editor.java" startLine="19" startPosition="48" endLine="20" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6094805849425646635" fileName="Arduino_Uno_Editor.java" startLine="19" startPosition="48" endLine="20" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6094805849425646635" fileName="Arduino_Uno_Editor.java" startLine="20" startPosition="81" endLine="21" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6094805849425646639" fileName="Arduino_Uno_Editor.java" startLine="24" startPosition="88" endLine="25" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6094805849425646639" fileName="Arduino_Uno_Editor.java" startLine="25" startPosition="97" endLine="26" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6094805849425646639" fileName="Arduino_Uno_Editor.java" startLine="25" startPosition="97" endLine="26" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6094805849425646639" fileName="Arduino_Uno_Editor.java" startLine="26" startPosition="47" endLine="27" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6094805849425646639" fileName="Arduino_Uno_Editor.java" startLine="27" startPosition="34" endLine="28" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6094805849425646633" fileName="Arduino_Uno_Editor.java" startLine="12" startPosition="59" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="6094805849425646635" fileName="Arduino_Uno_Editor.java" startLine="16" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_ow197a_a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="6094805849425646639" fileName="Arduino_Uno_Editor.java" startLine="23" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_ow197a_a0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <scopeInfo nodeId="6094805849425646633" fileName="Arduino_Uno_Editor.java" startLine="13" startPosition="79" endLine="14" endPosition="63" />
+    <scopeInfo nodeId="6094805849425646635" fileName="Arduino_Uno_Editor.java" startLine="18" startPosition="96" endLine="19" endPosition="48" />
+    <scopeInfo nodeId="6094805849425646635" fileName="Arduino_Uno_Editor.java" startLine="19" startPosition="48" endLine="20" endPosition="81" />
+    <scopeInfo nodeId="6094805849425646639" fileName="Arduino_Uno_Editor.java" startLine="25" startPosition="97" endLine="26" endPosition="47" />
+    <scopeInfo nodeId="6094805849425646633" fileName="Arduino_Uno_Editor.java" startLine="12" startPosition="59" endLine="16" endPosition="0">
+      <varInfo nodeId="6094805849425646633" varName="editorContext" />
+      <varInfo nodeId="6094805849425646633" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6094805849425646635" fileName="Arduino_Uno_Editor.java" startLine="17" startPosition="89" endLine="21" endPosition="22">
+      <varInfo nodeId="6094805849425646635" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="6094805849425646639" fileName="Arduino_Uno_Editor.java" startLine="24" startPosition="88" endLine="28" endPosition="22">
+      <varInfo nodeId="6094805849425646639" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="6094805849425646635" fileName="Arduino_Uno_Editor.java" startLine="16" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="6094805849425646635" varName="editorContext" />
+      <varInfo nodeId="6094805849425646635" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6094805849425646639" fileName="Arduino_Uno_Editor.java" startLine="23" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="6094805849425646639" varName="editorContext" />
+      <varInfo nodeId="6094805849425646639" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="6094805849425646633" fileName="Arduino_Uno_Editor.java" startLine="12" startPosition="0" endLine="31" endPosition="0" unitName="avr.editor.Arduino_Uno_Editor" />
+  </root>
+</debugInfo>
+

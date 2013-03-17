@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:8e607e5c-6eec-4ea8-8842-e99306148e1a(avrSandbox.sandbox.Main)">
   <persistence version="7" />
+  <language namespace="70b87b6c-9896-41b4-b968-0fb3e595f4cc(avr)" />
   <devkit namespace="d2a9c55c-6bdc-4cc2-97e1-4ba7552f5584(com.mbeddr.core)" />
   <devkit namespace="24565007-e59f-42fc-ac10-da3836deec1c(com.mbeddr.components)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
@@ -17,6 +18,7 @@
   <import index="p7vm" modelUID="r:28fa862e-f94d-4c39-bdf7-a4bdbc773888(com.mbeddr.ext.components.gen_nomw.structure)" version="0" implicit="yes" />
   <import index="vs0r" modelUID="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" version="6" implicit="yes" />
   <import index="k146" modelUID="r:5209fc71-bade-45c9-9079-f2d474f0d6ca(com.mbeddr.core.util.structure)" version="3" implicit="yes" />
+  <import index="9ebx" modelUID="r:8f8c094e-d406-495f-b231-d81af5e033c6(avr.structure)" version="-1" implicit="yes" />
   <roots>
     <node type="punb.HeaderImportSpecHFile" typeId="punb.7097640331099443677" id="5470833354241248455">
       <property name="includeDir" nameId="punb.7097640331099443678" value="/home/kolja/MPSProjects/avrSandbox/include" />
@@ -9872,11 +9874,6 @@
         <link role="module" roleId="51wr.7717755763392524108" targetNodeId="5470833354241449201" resolveInfo="Pins" />
       </node>
     </node>
-    <node role="target" roleId="51wr.5323740605968447026" type="51wr.DesktopPlatform" typeId="51wr.5323740605968447022" id="5470833354241434727">
-      <property name="compiler" nameId="51wr.5323740605968447024" value="avr-gcc" />
-      <property name="compilerOptions" nameId="51wr.5323740605968447025" value="-Wall -Os -DF_CPU=16000000UL -mmcu=atmega328p" />
-      <property name="debugOptions" nameId="51wr.2736179788492003937" value="-g" />
-    </node>
     <node role="configurationItems" roleId="vs0r.4459718605982007338" type="v7ag.ComponentsConfigItem" typeId="v7ag.2103658896110121032" id="5470833354241451974">
       <node role="genStrategy" roleId="v7ag.2103658896110238743" type="p7vm.NoMwComponentsGenStrategy" typeId="p7vm.2103658896110278831" id="5470833354241451976">
         <property name="wireStatically" nameId="p7vm.1553713790141527405" value="true" />
@@ -9886,6 +9883,7 @@
     <node role="configurationItems" roleId="vs0r.4459718605982007338" type="k146.ReportingConfiguration" typeId="k146.4459718605982051949" id="5470833354241454733">
       <node role="strategy" roleId="k146.4459718605982051999" type="k146.DoNothingReportingStrategy" typeId="k146.4459718605982051985" id="5470833354241454736" />
     </node>
+    <node role="target" roleId="51wr.5323740605968447026" type="9ebx.Arduino_Uno" typeId="9ebx.6094805849425646631" id="6094805849425661789" />
   </root>
   <root id="5470833354241255819">
     <node role="targets" roleId="i2y7.5950410542643587173" type="i2y7.Target" typeId="i2y7.5950410542643587165" id="5470833354241255895">
