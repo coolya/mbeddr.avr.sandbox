@@ -1,7 +1,7 @@
 CC=avr-gcc
 CFLAGS=-Wall -Os -DF_CPU=16000000UL -mmcu=atmega328p
 ODIR=./bin
-_OBJ_test=main.o
+_OBJ_test=main.o Pins.o
 OBJ_test=$(patsubst %,$(ODIR)/%,$(_OBJ_test))
 
 

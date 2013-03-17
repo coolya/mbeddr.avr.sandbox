@@ -29,21 +29,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="929abc4f-4909-45ee-be19-f9b53a08dfbc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/classes_gen/avrSandbox/sandbox/Main/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/classes_gen/avrSandbox/sandbox/Main/test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/classes_gen/avrSandbox/sandbox/Main/trace.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/source_gen.caches/avrSandbox/sandbox/Main/dependencies" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/source_gen.caches/avrSandbox/sandbox/Main/generated" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/source_gen/avrSandbox/sandbox/Main/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/source_gen/avrSandbox/sandbox/Main/bin/main.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/source_gen/avrSandbox/sandbox/Main/test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/source_gen/avrSandbox/sandbox/Main/trace.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/avrSandbox.sandbox.msd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/classes_gen/avrSandbox/sandbox/Main/main.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/classes_gen/avrSandbox/sandbox/Main/main.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/models/avrSandbox/sandbox/Main.mps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/source_gen/avrSandbox/sandbox/Main/main.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/source_gen/avrSandbox/sandbox/Main/main.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/source_gen/avrSandbox/sandbox/Main/myBlinker.debug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/source_gen/avrSandbox/sandbox/Main/Pins.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/source_gen/avrSandbox/sandbox/Main/Pins.h" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/source_gen/avrSandbox/sandbox/Main/bin/main.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/source_gen/avrSandbox/sandbox/Main/test" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/classes_gen/avrSandbox/sandbox/Main/Makefile" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/classes_gen/avrSandbox/sandbox/Main/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/classes_gen/avrSandbox/sandbox/Main/test" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/classes_gen/avrSandbox/sandbox/Main/test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/classes_gen/avrSandbox/sandbox/Main/trace.info" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/classes_gen/avrSandbox/sandbox/Main/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/source_gen.caches/avrSandbox/sandbox/Main/dependencies" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/source_gen.caches/avrSandbox/sandbox/Main/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/source_gen.caches/avrSandbox/sandbox/Main/generated" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/source_gen.caches/avrSandbox/sandbox/Main/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/source_gen/avrSandbox/sandbox/Main/Makefile" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/source_gen/avrSandbox/sandbox/Main/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/source_gen/avrSandbox/sandbox/Main/trace.info" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/source_gen/avrSandbox/sandbox/Main/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avrSandbox.iws" afterPath="$PROJECT_DIR$/avrSandbox.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/classes_gen/avrSandbox/sandbox/Main/main.c" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/classes_gen/avrSandbox/sandbox/Main/main.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/classes_gen/avrSandbox/sandbox/Main/main.h" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/classes_gen/avrSandbox/sandbox/Main/main.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/models/avrSandbox/sandbox/Main.mps" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/models/avrSandbox/sandbox/Main.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/source_gen/avrSandbox/sandbox/Main/main.c" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/source_gen/avrSandbox/sandbox/Main/main.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/source_gen/avrSandbox/sandbox/Main/main.h" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/source_gen/avrSandbox/sandbox/Main/main.h" />
     </list>
     <ignored path="avrSandbox.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -100,15 +103,15 @@
         <entry file="mps://avrSandbox.sandbox.Main/BuildConfiguration (avrSandbox.sandbox.Main)">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
+              <memento viewPositionX="0" viewPositionY="116">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="24" />
-                    <property name="caretX" value="151" />
+                    <property name="caretXRelative" value="56" />
+                    <property name="caretX" value="87" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="ReadOnlyModelAccessor_9ypmb6_b1a" cellNumber="0" isInList="false">
-                      <node model="r:8e607e5c-6eec-4ea8-8842-e99306148e1a(avrSandbox.sandbox.Main)" id="5470833354241266714" />
+                    <cellInfo cellId="Constant_adpsim_a0" cellNumber="0" isInList="false">
+                      <node model="r:8e607e5c-6eec-4ea8-8842-e99306148e1a(avrSandbox.sandbox.Main)" id="5470833354241434727" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -208,11 +211,11 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="47" />
+                    <property name="caretXRelative" value="24" />
+                    <property name="caretX" value="97" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_7h2wce_a" cellNumber="0" isInList="false">
-                      <node model="r:8e607e5c-6eec-4ea8-8842-e99306148e1a(avrSandbox.sandbox.Main)" id="5470833354241255928" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node model="r:8e607e5c-6eec-4ea8-8842-e99306148e1a(avrSandbox.sandbox.Main)" id="5470833354241255897" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -234,11 +237,11 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="47" />
+                    <property name="caretXRelative" value="8" />
+                    <property name="caretX" value="81" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_96uam9_a" cellNumber="0" isInList="false">
-                      <node model="r:8e607e5c-6eec-4ea8-8842-e99306148e1a(avrSandbox.sandbox.Main)" id="5470833354241449236" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node model="r:8e607e5c-6eec-4ea8-8842-e99306148e1a(avrSandbox.sandbox.Main)" id="5470833354241449201" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -252,10 +255,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="a.sandbox.Main/text" pinned="false" current="false" current-in-tab="false">
-        <entry file="previewGenerated text for avrSandbox.sandbox.Main">
-          <provider selected="true" editor-type-id="GeneratedTextPreview">
-            <state />
+      <file leaf-file-name="TypeSizeConfiguration (avrSandbox.sandbox.Main)" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://avrSandbox.sandbox.Main/TypeSizeConfiguration (avrSandbox.sandbox.Main)">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="8" />
+                    <property name="caretX" value="367" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="Constant_wt2she_f0" cellNumber="0" isInList="false">
+                      <node model="r:8e607e5c-6eec-4ea8-8842-e99306148e1a(avrSandbox.sandbox.Main)" id="5470833354241477542" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <folded />
+              </memento>
+              <inspectorMemento viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <folded />
+              </inspectorMemento>
+            </state>
           </provider>
         </entry>
       </file>
@@ -298,9 +320,9 @@
     <option name="warnings" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="597" />
+    <option name="x" value="726" />
     <option name="y" value="24" />
-    <option name="width" value="1258" />
+    <option name="width" value="953" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -446,16 +468,6 @@
       <pane id="Favorites">
         <subPane />
       </pane>
-      <pane id="FileSystem">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -488,65 +500,32 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="FileSystem">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="/build/mbeddr" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JUnit Tests" factoryName="JUnit Tests">
-      <MyState>
-        <option name="myModel" />
-        <option name="myModule" />
-        <option name="myTestCases">
-          <list />
-        </option>
-        <option name="myTestMethods">
-          <list />
-        </option>
-        <option name="myRunType" />
-      </MyState>
-      <myJUnitSettings>
-        <MyState>
-          <option name="myModel" />
-          <option name="myModule" />
-          <option name="myTestCases">
-            <list />
-          </option>
-          <option name="myTestMethods">
-            <list />
-          </option>
-          <option name="myRunType" />
-        </MyState>
-      </myJUnitSettings>
-      <myJavaRunParameters>
-        <MyState>
-          <option name="myJavaRunParameters">
-            <JavaRunParameters>
-              <option name="jrePath" />
-              <option name="programParameters" />
-              <option name="useAlternativeJre" value="false" />
-              <option name="vmOptions" />
-              <option name="workingDirectory" />
-            </JavaRunParameters>
-          </option>
-        </MyState>
-      </myJavaRunParameters>
-      <method>
-        <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
-        <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
-      </method>
-    </configuration>
     <list size="0" />
     <configuration name="&lt;template&gt;" type="Application" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
@@ -603,7 +582,7 @@
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="ToolWindowManager">
-    <frame x="597" y="24" width="1258" height="1056" extended-state="0" />
+    <frame x="726" y="24" width="953" height="1056" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -614,31 +593,31 @@
       <window_info id="Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="mbeddr Visualization" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Model Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="mbeddr Analyze Error Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="mbeddr Analyze Error Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Model Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Replacement" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Feature Model Verification (Yices)" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279396" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Module Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273684" sideWeight="0.4966942" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19173554" sideWeight="0.67098165" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42456895" sideWeight="0.67098165" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18677686" sideWeight="0.67098165" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32901832" sideWeight="0.49752066" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32901832" sideWeight="0.4966942" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.55950415" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Decision Table Verification (Yices)" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.43966943" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="mbeddr TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Verification (CBMC)" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32901832" sideWeight="0.43471074" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -744,6 +723,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="mps://com.mbeddr.ext.components.gen_nomw.generator.template.main@generator/main">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="5946">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretXRelative" value="-162" />
+                <property name="caretX" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_9o3sb9_a_0" cellNumber="0" isInList="false">
+                  <node model="r:769ad9a0-f26a-4d17-9cc6-f3ae937bc774(com.mbeddr.ext.components.gen_nomw.generator.template.main@generator)" id="8933128519013973419" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretXRelative" value="-15" />
+                <property name="caretX" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_9o3sb9_a" cellNumber="0" isInList="false">
+                  <node model="r:769ad9a0-f26a-4d17-9cc6-f3ae937bc774(com.mbeddr.ext.components.gen_nomw.generator.template.main@generator)" id="8933128519013973419" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
     <entry file="mps://com.mbeddr.core.buildconfig.structure/DesktopPlatform">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
@@ -769,44 +780,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://avrSandbox.sandbox.Main/makefile">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="6">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="selectionEnd" value="45" />
-                <property name="hasNonTrivialSelection" value="true" />
-                <property name="caretXRelative" value="360" />
-                <property name="selectionStart" value="0" />
-                <property name="caretX" value="443" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_value" cellNumber="0" isInList="false">
-                  <node model="r:8e607e5c-6eec-4ea8-8842-e99306148e1a(avrSandbox.sandbox.Main)" id="5470833354241255829" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://avrSandbox.sandbox.Main/BuildConfiguration (avrSandbox.sandbox.Main)">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
+          <memento viewPositionX="0" viewPositionY="116">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="24" />
-                <property name="caretX" value="151" />
+                <property name="caretXRelative" value="56" />
+                <property name="caretX" value="87" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="ReadOnlyModelAccessor_9ypmb6_b1a" cellNumber="0" isInList="false">
-                  <node model="r:8e607e5c-6eec-4ea8-8842-e99306148e1a(avrSandbox.sandbox.Main)" id="5470833354241266714" />
+                <cellInfo cellId="Constant_adpsim_a0" cellNumber="0" isInList="false">
+                  <node model="r:8e607e5c-6eec-4ea8-8842-e99306148e1a(avrSandbox.sandbox.Main)" id="5470833354241434727" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -898,11 +883,61 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="47" />
+                <property name="caretXRelative" value="24" />
+                <property name="caretX" value="97" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_7h2wce_a" cellNumber="0" isInList="false">
-                  <node model="r:8e607e5c-6eec-4ea8-8842-e99306148e1a(avrSandbox.sandbox.Main)" id="5470833354241255928" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node model="r:8e607e5c-6eec-4ea8-8842-e99306148e1a(avrSandbox.sandbox.Main)" id="5470833354241255897" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://avrSandbox.sandbox.Main/TypeSizeConfiguration (avrSandbox.sandbox.Main)">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="8" />
+                <property name="caretX" value="367" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_wt2she_f0" cellNumber="0" isInList="false">
+                  <node model="r:8e607e5c-6eec-4ea8-8842-e99306148e1a(avrSandbox.sandbox.Main)" id="5470833354241477542" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://avrSandbox.sandbox.Main/makefile">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="6">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="true" />
+                <property name="selectionEnd" value="45" />
+                <property name="caretXRelative" value="360" />
+                <property name="selectionStart" value="0" />
+                <property name="caretX" value="443" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_value" cellNumber="0" isInList="false">
+                  <node model="r:8e607e5c-6eec-4ea8-8842-e99306148e1a(avrSandbox.sandbox.Main)" id="5470833354241255829" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -922,11 +957,11 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="47" />
+                <property name="caretXRelative" value="8" />
+                <property name="caretX" value="81" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_96uam9_a" cellNumber="0" isInList="false">
-                  <node model="r:8e607e5c-6eec-4ea8-8842-e99306148e1a(avrSandbox.sandbox.Main)" id="5470833354241449236" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node model="r:8e607e5c-6eec-4ea8-8842-e99306148e1a(avrSandbox.sandbox.Main)" id="5470833354241449201" />
                 </cellInfo>
               </stackElement>
             </selectionStack>

@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="boy3htmvrg009koz35aqylrajru6c0u">
+<dependencies version="2" modelHash="dgzjfxg8uqzo1am1mxerrn5w7110aqt">
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
   <dep model="r:5502bfb4-a967-4ca4-be6d-8754034c6d99(com.mbeddr.core.buildconfig.generator.template.main@generator)" />
   <dep model="r:5f62df63-885f-42f0-80d6-e13ad6c51489(com.mbeddr.core.modules.gen.generator.template.main@generator)" />
-  <common hash="e7gya5vujfopk9h8v7m0tplrhyehzpr">
+  <dep model="r:769ad9a0-f26a-4d17-9cc6-f3ae937bc774(com.mbeddr.ext.components.gen_nomw.generator.template.main@generator)" />
+  <dep model="r:9596407c-f27a-49d3-abde-3a66293c5b61(com.mbeddr.ext.components.structure)" />
+  <dep model="r:b9b22e10-428b-4f92-963a-8cf564256895(com.mbeddr.ext.components.generator.template.main@generator)" />
+  <common hash="-bn5rhgg6rocu59gtnpsjeop4iatqdgf">
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
     <dep model="r:5502bfb4-a967-4ca4-be6d-8754034c6d99(com.mbeddr.core.buildconfig.generator.template.main@generator)" />
     <dep model="r:5f62df63-885f-42f0-80d6-e13ad6c51489(com.mbeddr.core.modules.gen.generator.template.main@generator)" />
+    <dep model="r:769ad9a0-f26a-4d17-9cc6-f3ae937bc774(com.mbeddr.ext.components.gen_nomw.generator.template.main@generator)" />
+    <dep model="r:9596407c-f27a-49d3-abde-3a66293c5b61(com.mbeddr.ext.components.structure)" />
     <file name="Makefile" />
+    <file name="Pins.c" />
+    <file name="Pins.h" />
     <file name="avr_common" />
     <file name="avr_fuse" />
     <file name="avr_io" />
@@ -17,11 +28,12 @@
     <file name="inttypes" />
     <file name="main.c" />
     <file name="main.h" />
+    <file name="myBlinker.debug" />
     <file name="stdint" />
     <file name="util_delay" />
     <file name="util_delay_basic" />
   </common>
-  <source id="5470833354241248455" name="Header Import avrSandbox.sandbox.Main" hash="-ep1imzjt5s0fbzrpdp4nbkxle4udo2g" />
+  <source id="5470833354241248455" name="Header Import avrSandbox.sandbox.Main" hash="-76azqbi7v888tgpsyz7ccsgvxehkg5r" />
   <source id="5470833354241250747" name="util_crc16" hash="1bl81bha9p2mz02ih56aval5iwhc4k8" />
   <source id="5470833354241250750" name="util_setbaud" hash="-cf5yk6rix67sqf8a7a3zmm47wtkyvdq" />
   <source id="5470833354241250765" name="util_delay_basic" hash="-bgur8ot38b1muixbqgkjc3mdky90jgf" />
@@ -39,9 +51,13 @@
   <source id="5470833354241255473" name="avr_portpins" hash="-2cmbod9lf58mi2gvqkqv8b4kb9n251x" />
   <source id="5470833354241255525" name="avr_common" hash="-6xxmyaahturjhtx7ifcyx6ml0d9ilpb" />
   <source id="5470833354241255589" name="avr_io" hash="zq8ftdsks9cto6pm3wt385uk5ckydo" />
-  <source id="5470833354241255774" name="BuildConfiguration (avrSandbox.sandbox.Main)" hash="75thl9yagz564gmnsmdlicmrshe6isj" />
-  <source id="5470833354241255776" name="TypeSizeConfiguration (avrSandbox.sandbox.Main)" hash="ddujsw673c5h07zu947klb9o1y6vbog" />
-  <source id="5470833354241255819" name="makefile" hash="-ei5oiv68ny1k9d7crmsxpga43qa747h" />
-  <source id="5470833354241255897" name="main" hash="-5mr5qfzb439xkqtmq28unw3p08dl4w0" />
+  <source id="5470833354241255774" name="BuildConfiguration (avrSandbox.sandbox.Main)" hash="-5lhcmyh0szfpwihaidb0royfl1w8jew" />
+  <source id="5470833354241255819" name="makefile" hash="5sxiqm4dax8b97mjbzg3qml8yrgz2kk" />
+  <source id="5470833354241255897" name="main" hash="-9fquembt4hjgnxax377wr9zmxr68nj2" dependsOnNodes="true">
+    <dep root="5470833354241449201" />
+    <dep model="r:b9b22e10-428b-4f92-963a-8cf564256895(com.mbeddr.ext.components.generator.template.main@generator)" />
+  </source>
+  <source id="5470833354241449201" name="Pins" hash="cvp43jtk5ay2s0a4yihhhwxcesykp9r" />
+  <source id="5470833354241477524" name="TypeSizeConfiguration (avrSandbox.sandbox.Main)" hash="as6gqypsvk6lsf7i8961a0mds0dqxvu" />
 </dependencies>
 
