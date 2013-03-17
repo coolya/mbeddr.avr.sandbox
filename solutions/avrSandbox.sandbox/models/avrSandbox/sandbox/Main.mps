@@ -12,13 +12,12 @@
   <import index="punb" modelUID="r:401d5aa1-f59d-49c0-833e-cf94fb548e92(com.mbeddr.core.cstubs.structure)" version="1" implicit="yes" />
   <import index="x27k" modelUID="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" version="3" implicit="yes" />
   <import index="51wr" modelUID="r:b31f1c3c-99aa-4f1e-a329-cba27efb1a6b(com.mbeddr.core.buildconfig.structure)" version="1" implicit="yes" />
-  <import index="i2y7" modelUID="r:098cbe90-1cfd-414a-b5e8-aca28752df17(com.mbeddr.core.make.structure)" version="-1" implicit="yes" />
   <import index="c4fa" modelUID="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" version="5" implicit="yes" />
   <import index="v7ag" modelUID="r:9596407c-f27a-49d3-abde-3a66293c5b61(com.mbeddr.ext.components.structure)" version="16" implicit="yes" />
   <import index="p7vm" modelUID="r:28fa862e-f94d-4c39-bdf7-a4bdbc773888(com.mbeddr.ext.components.gen_nomw.structure)" version="0" implicit="yes" />
   <import index="vs0r" modelUID="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" version="6" implicit="yes" />
   <import index="k146" modelUID="r:5209fc71-bade-45c9-9079-f2d474f0d6ca(com.mbeddr.core.util.structure)" version="3" implicit="yes" />
-  <import index="9ebx" modelUID="r:8f8c094e-d406-495f-b231-d81af5e033c6(avr.structure)" version="-1" implicit="yes" />
+  <import index="9ebx" modelUID="r:8f8c094e-d406-495f-b231-d81af5e033c6(avr.structure)" version="0" implicit="yes" />
   <roots>
     <node type="punb.HeaderImportSpecHFile" typeId="punb.7097640331099443677" id="5470833354241248455">
       <property name="includeDir" nameId="punb.7097640331099443678" value="/home/kolja/MPSProjects/avrSandbox/include" />
@@ -93,10 +92,6 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="avr." />
     </node>
     <node type="51wr.BuildConfiguration" typeId="51wr.7717755763392524104" id="5470833354241255774">
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
-    </node>
-    <node type="i2y7.Makefile" typeId="i2y7.5950410542643585247" id="5470833354241255819">
-      <property name="name" nameId="tpck.1169194664001" value="makefile" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
     </node>
     <node type="x27k.ImplementationModule" typeId="x27k.6437088627575722830" id="5470833354241255897">
@@ -9884,99 +9879,6 @@
       <node role="strategy" roleId="k146.4459718605982051999" type="k146.DoNothingReportingStrategy" typeId="k146.4459718605982051985" id="5470833354241454736" />
     </node>
     <node role="target" roleId="51wr.5323740605968447026" type="9ebx.Arduino_Uno" typeId="9ebx.6094805849425646631" id="6094805849425661789" />
-  </root>
-  <root id="5470833354241255819">
-    <node role="targets" roleId="i2y7.5950410542643587173" type="i2y7.Target" typeId="i2y7.5950410542643587165" id="5470833354241255895">
-      <property name="label" nameId="i2y7.5950410542643587166" value=".SUFFIXES" />
-      <node role="dependencies" roleId="i2y7.5950410542643587171" type="i2y7.TextDependency" typeId="i2y7.5950410542643589987" id="5470833354241255896">
-        <property name="text" nameId="i2y7.5950410542643589988" value=".elf .hex" />
-      </node>
-    </node>
-    <node role="targets" roleId="i2y7.5950410542643587173" type="i2y7.Target" typeId="i2y7.5950410542643587165" id="5470833354241255831">
-      <property name="label" nameId="i2y7.5950410542643587166" value=".c.elf" />
-      <node role="commands" roleId="i2y7.5950410542643587172" type="i2y7.Command" typeId="i2y7.5950410542643587169" id="5470833354241255832">
-        <node role="items" roleId="i2y7.3373914745211590943" type="i2y7.VariableRefCommandItem" typeId="i2y7.3373914745211590969" id="5470833354241255836">
-          <link role="var" roleId="i2y7.3373914745211590970" targetNodeId="5470833354241255822" resolveInfo="CC" />
-        </node>
-        <node role="items" roleId="i2y7.3373914745211590943" type="i2y7.VariableRefCommandItem" typeId="i2y7.3373914745211590969" id="5470833354241255838">
-          <link role="var" roleId="i2y7.3373914745211590970" targetNodeId="5470833354241255829" resolveInfo="CFLAGS" />
-        </node>
-        <node role="items" roleId="i2y7.3373914745211590943" type="i2y7.TextCommandItem" typeId="i2y7.3373914745211590947" id="5470833354241255848">
-          <property name="text" nameId="i2y7.3373914745211590948" value="-o" />
-        </node>
-        <node role="items" roleId="i2y7.3373914745211590943" type="i2y7.MacroAt" typeId="i2y7.8794027157967672672" id="5470833354241255854" />
-        <node role="items" roleId="i2y7.3373914745211590943" type="i2y7.MacroLess" typeId="i2y7.8794027157967672694" id="5470833354241255856" />
-      </node>
-    </node>
-    <node role="targets" roleId="i2y7.5950410542643587173" type="i2y7.Target" typeId="i2y7.5950410542643587165" id="5470833354241255860">
-      <property name="label" nameId="i2y7.5950410542643587166" value=".elf.hex" />
-      <node role="commands" roleId="i2y7.5950410542643587172" type="i2y7.Command" typeId="i2y7.5950410542643587169" id="5470833354241255861">
-        <node role="items" roleId="i2y7.3373914745211590943" type="i2y7.VariableRefCommandItem" typeId="i2y7.3373914745211590969" id="5470833354241255863">
-          <link role="var" roleId="i2y7.3373914745211590970" targetNodeId="5470833354241255821" resolveInfo="OBJCOPY" />
-        </node>
-        <node role="items" roleId="i2y7.3373914745211590943" type="i2y7.TextCommandItem" typeId="i2y7.3373914745211590947" id="5470833354241255866">
-          <property name="text" nameId="i2y7.3373914745211590948" value="-O" />
-        </node>
-        <node role="items" roleId="i2y7.3373914745211590943" type="i2y7.VariableRefCommandItem" typeId="i2y7.3373914745211590969" id="5470833354241255869">
-          <link role="var" roleId="i2y7.3373914745211590970" targetNodeId="5470833354241255828" resolveInfo="BIN_FORMAT" />
-        </node>
-        <node role="items" roleId="i2y7.3373914745211590943" type="i2y7.TextCommandItem" typeId="i2y7.3373914745211590947" id="5470833354241255872">
-          <property name="text" nameId="i2y7.3373914745211590948" value="-R .eeprom" />
-        </node>
-        <node role="items" roleId="i2y7.3373914745211590943" type="i2y7.MacroLess" typeId="i2y7.8794027157967672694" id="5470833354241255874" />
-        <node role="items" roleId="i2y7.3373914745211590943" type="i2y7.MacroAt" typeId="i2y7.8794027157967672672" id="5470833354241255876" />
-      </node>
-    </node>
-    <node role="targets" roleId="i2y7.5950410542643587173" type="i2y7.Target" typeId="i2y7.5950410542643587165" id="5470833354241255889">
-      <property name="label" nameId="i2y7.5950410542643587166" value="default" />
-      <node role="dependencies" roleId="i2y7.5950410542643587171" type="i2y7.TextDependency" typeId="i2y7.5950410542643589987" id="5470833354241255890">
-        <property name="text" nameId="i2y7.5950410542643589988" value="main.hex" />
-      </node>
-    </node>
-    <node role="targets" roleId="i2y7.5950410542643587173" type="i2y7.Target" typeId="i2y7.5950410542643587165" id="5470833354241255891">
-      <property name="label" nameId="i2y7.5950410542643587166" value="main.hex" />
-      <node role="dependencies" roleId="i2y7.5950410542643587171" type="i2y7.TextDependency" typeId="i2y7.5950410542643589987" id="5470833354241255892">
-        <property name="text" nameId="i2y7.5950410542643589988" value="main.elf" />
-      </node>
-    </node>
-    <node role="targets" roleId="i2y7.5950410542643587173" type="i2y7.Target" typeId="i2y7.5950410542643587165" id="5470833354241255893">
-      <property name="label" nameId="i2y7.5950410542643587166" value="main.elf" />
-      <node role="dependencies" roleId="i2y7.5950410542643587171" type="i2y7.ModuleRefDependency" typeId="i2y7.208195772221043021" id="5470833354241255899">
-        <link role="module" roleId="i2y7.208195772221043047" targetNodeId="5470833354241255897" resolveInfo="main" />
-      </node>
-    </node>
-    <node role="variables" roleId="i2y7.3373914745211365205" type="i2y7.Variable" typeId="i2y7.3373914745211365206" id="5470833354241255820">
-      <property name="name" nameId="tpck.1169194664001" value="AVRDUDE" />
-      <property name="value" nameId="i2y7.3373914745211446888" value="avrdude -F -V" />
-    </node>
-    <node role="variables" roleId="i2y7.3373914745211365205" type="i2y7.Variable" typeId="i2y7.3373914745211365206" id="5470833354241255821">
-      <property name="name" nameId="tpck.1169194664001" value="OBJCOPY" />
-      <property name="value" nameId="i2y7.3373914745211446888" value="avr-objcopy" />
-    </node>
-    <node role="variables" roleId="i2y7.3373914745211365205" type="i2y7.Variable" typeId="i2y7.3373914745211365206" id="5470833354241255822">
-      <property name="name" nameId="tpck.1169194664001" value="CC" />
-      <property name="value" nameId="i2y7.3373914745211446888" value="avr-gcc" />
-    </node>
-    <node role="variables" roleId="i2y7.3373914745211365205" type="i2y7.Variable" typeId="i2y7.3373914745211365206" id="5470833354241255823">
-      <property name="name" nameId="tpck.1169194664001" value="RM" />
-      <property name="value" nameId="i2y7.3373914745211446888" value="rm -f" />
-    </node>
-    <node role="variables" roleId="i2y7.3373914745211365205" type="i2y7.Variable" typeId="i2y7.3373914745211365206" id="5470833354241255826">
-      <property name="name" nameId="tpck.1169194664001" value="MCU" />
-      <property name="value" nameId="i2y7.3373914745211446888" value="atmega328p" />
-    </node>
-    <node role="variables" roleId="i2y7.3373914745211365205" type="i2y7.Variable" typeId="i2y7.3373914745211365206" id="5470833354241255827">
-      <property name="name" nameId="tpck.1169194664001" value="F_CPU" />
-      <property name="value" nameId="i2y7.3373914745211446888" value="16000000UL" />
-    </node>
-    <node role="variables" roleId="i2y7.3373914745211365205" type="i2y7.Variable" typeId="i2y7.3373914745211365206" id="5470833354241255828">
-      <property name="name" nameId="tpck.1169194664001" value="BIN_FORMAT" />
-      <property name="value" nameId="i2y7.3373914745211446888" value="ihex" />
-    </node>
-    <node role="variables" roleId="i2y7.3373914745211365205" type="i2y7.Variable" typeId="i2y7.3373914745211365206" id="5470833354241255829">
-      <property name="name" nameId="tpck.1169194664001" value="CFLAGS" />
-      <property name="value" nameId="i2y7.3373914745211446888" value="-Wall -Os -DF_CPU=16000000UL -mmcu=atmega328p" />
-    </node>
   </root>
   <root id="5470833354241255897">
     <node role="contents" roleId="x27k.6437088627575722833" type="v7ag.InstanceConfiguration" typeId="v7ag.4491876417845649024" id="5470833354241449428">

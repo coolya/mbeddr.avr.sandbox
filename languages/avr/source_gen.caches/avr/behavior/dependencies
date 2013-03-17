@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
+  <dependency className="avr.behavior.Arduino_BehaviorDescriptor" file="Arduino_BehaviorDescriptor.java">
+    <classNode dependClassName="com.mbeddr.core.buildconfig.behavior.Platform_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="avr.behavior.Arduino_Uno_BehaviorDescriptor" file="Arduino_Uno_BehaviorDescriptor.java">
     <classNode dependClassName="com.mbeddr.core.buildconfig.behavior.Platform_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />

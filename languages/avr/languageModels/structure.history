@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="9ebx" modelUID="r:8f8c094e-d406-495f-b231-d81af5e033c6(avr.structure)" version="-1" />
+    </dependencies>
+    <rename id="9ebx.6094805849425706900" type="PROPERTY" from="s" to="mcu" />
+  </StructureModification>
+</history>
+

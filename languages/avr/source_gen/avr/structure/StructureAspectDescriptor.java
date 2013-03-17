@@ -8,7 +8,7 @@ import jetbrains.mps.smodel.runtime.impl.CompiledConceptDescriptor;
 import jetbrains.mps.smodel.runtime.interpreted.StructureAspectInterpreted;
 
 public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.StructureAspectDescriptor {
-  private static String[] stringSwitchCases_1htk8d_a0a0a = new String[]{"avr.structure.Arduino_Uno"};
+  private static String[] stringSwitchCases_1htk8d_a0a0a = new String[]{"avr.structure.Arduino", "avr.structure.Arduino_Uno"};
 
   public StructureAspectDescriptor() {
   }
@@ -16,7 +16,9 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
   public ConceptDescriptor getDescriptor(String conceptFqName) {
     switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0a, conceptFqName)) {
       case 0:
-        return new CompiledConceptDescriptor("avr.structure.Arduino_Uno", "com.mbeddr.core.buildconfig.structure.Platform", false, new String[]{"com.mbeddr.core.buildconfig.structure.Platform"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("avr.structure.Arduino", "com.mbeddr.core.buildconfig.structure.Platform", false, new String[]{"com.mbeddr.core.buildconfig.structure.Platform"}, new String[]{"cpuSpeed", "mcu"}, new String[]{});
+      case 1:
+        return new CompiledConceptDescriptor("avr.structure.Arduino_Uno", "com.mbeddr.core.buildconfig.structure.Platform", false, new String[]{"com.mbeddr.core.buildconfig.structure.Platform"}, new String[]{"test"}, new String[]{});
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }

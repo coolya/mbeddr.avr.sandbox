@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <unitInfo fileName="Arduino_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="avr.behavior.Arduino_BehaviorDescriptor" />
   <unitInfo fileName="Arduino_Uno_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="avr.behavior.Arduino_Uno_BehaviorDescriptor" />
   <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="24" endPosition="0" unitName="avr.behavior.BehaviorAspectDescriptor" />
 </debugInfo>

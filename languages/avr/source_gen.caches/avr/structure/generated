@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="4n1wd17jheqf78msn9k7lk0yyua0vsc">
+<dependencies version="2" modelHash="7x22ma12u9vtrpivca696kpbm0t79w1">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -9,8 +9,9 @@
   <dep model="r:b31f1c3c-99aa-4f1e-a329-cba27efb1a6b(com.mbeddr.core.buildconfig.structure)" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-  <common hash="-7g0ra49aq5bk713kj1juf5x73d1zoqd">
+  <common hash="4rqv0dv1ym8tfed0om7yf25se8h2twd">
     <dep root="6094805849425646631" />
+    <dep root="6094805849425706897" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -23,7 +24,10 @@
     <file name="Avr_Language.java" />
     <file name="StructureAspectDescriptor.java" />
   </common>
-  <source id="6094805849425646631" name="Arduino_Uno" hash="1oh9tdouo9j9lruqlfkgy3gytnd5yhx">
+  <source id="6094805849425646631" name="Arduino_Uno" hash="-blgoxe1o48p01od1z1msfoirxhh5sn7">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="6094805849425706897" name="Arduino" hash="-j415tg1aqbvwfla3vm9wvh71gvbn2s">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
 </dependencies>

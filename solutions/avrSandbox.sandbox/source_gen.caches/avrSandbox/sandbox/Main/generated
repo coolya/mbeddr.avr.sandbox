@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="dgzjfxg8uqzo1am1mxerrn5w7110aqt">
+<dependencies version="2" modelHash="-5i00hsuxuepcrpz7u29iqo1nv4lfpzm">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
-  <dep model="r:5502bfb4-a967-4ca4-be6d-8754034c6d99(com.mbeddr.core.buildconfig.generator.template.main@generator)" />
   <dep model="r:5f62df63-885f-42f0-80d6-e13ad6c51489(com.mbeddr.core.modules.gen.generator.template.main@generator)" />
   <dep model="r:769ad9a0-f26a-4d17-9cc6-f3ae937bc774(com.mbeddr.ext.components.gen_nomw.generator.template.main@generator)" />
+  <dep model="r:8dbc5af8-8829-42cd-b16f-d4c943419310(avr.generator.template.main@generator)" hash="2whauh6qol02sz7447ud1t9dbnb1pl0" />
   <dep model="r:9596407c-f27a-49d3-abde-3a66293c5b61(com.mbeddr.ext.components.structure)" />
   <dep model="r:b9b22e10-428b-4f92-963a-8cf564256895(com.mbeddr.ext.components.generator.template.main@generator)" />
-  <common hash="-bn5rhgg6rocu59gtnpsjeop4iatqdgf">
+  <common hash="1q8xv1h8fukarbm6pbv9f9g1h7m4px3">
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
-    <dep model="r:5502bfb4-a967-4ca4-be6d-8754034c6d99(com.mbeddr.core.buildconfig.generator.template.main@generator)" />
     <dep model="r:5f62df63-885f-42f0-80d6-e13ad6c51489(com.mbeddr.core.modules.gen.generator.template.main@generator)" />
     <dep model="r:769ad9a0-f26a-4d17-9cc6-f3ae937bc774(com.mbeddr.ext.components.gen_nomw.generator.template.main@generator)" />
+    <dep model="r:8dbc5af8-8829-42cd-b16f-d4c943419310(avr.generator.template.main@generator)" />
     <dep model="r:9596407c-f27a-49d3-abde-3a66293c5b61(com.mbeddr.ext.components.structure)" />
-    <file name="Makefile" />
     <file name="Pins.c" />
     <file name="Pins.h" />
     <file name="avr_common" />
@@ -28,6 +27,7 @@
     <file name="inttypes" />
     <file name="main.c" />
     <file name="main.h" />
+    <file name="makefile" />
     <file name="myBlinker.debug" />
     <file name="stdint" />
     <file name="util_delay" />
@@ -51,8 +51,7 @@
   <source id="5470833354241255473" name="avr_portpins" hash="-2cmbod9lf58mi2gvqkqv8b4kb9n251x" />
   <source id="5470833354241255525" name="avr_common" hash="-6xxmyaahturjhtx7ifcyx6ml0d9ilpb" />
   <source id="5470833354241255589" name="avr_io" hash="zq8ftdsks9cto6pm3wt385uk5ckydo" />
-  <source id="5470833354241255774" name="BuildConfiguration (avrSandbox.sandbox.Main)" hash="-5lhcmyh0szfpwihaidb0royfl1w8jew" />
-  <source id="5470833354241255819" name="makefile" hash="5sxiqm4dax8b97mjbzg3qml8yrgz2kk" />
+  <source id="5470833354241255774" name="BuildConfiguration (avrSandbox.sandbox.Main)" hash="342cm9ju3jjp0ci91vrscyigbhn5fxg" />
   <source id="5470833354241255897" name="main" hash="-9fquembt4hjgnxax377wr9zmxr68nj2" dependsOnNodes="true">
     <dep root="5470833354241449201" />
     <dep model="r:b9b22e10-428b-4f92-963a-8cf564256895(com.mbeddr.ext.components.generator.template.main@generator)" />
