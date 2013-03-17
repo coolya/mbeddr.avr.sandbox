@@ -9825,7 +9825,7 @@
   </root>
   <root id="5470833354241255774">
     <node role="binaries" roleId="51wr.5046689135694070731" type="51wr.Executable" typeId="51wr.5046689135693761554" id="5470833354241266711">
-      <property name="name" nameId="tpck.1169194664001" value="test" />
+      <property name="name" nameId="tpck.1169194664001" value="blinky" />
       <node role="referencedModules" roleId="51wr.5046689135693761559" type="51wr.ModuleRef" typeId="51wr.7717755763392524107" id="5470833354241266712">
         <link role="module" roleId="51wr.7717755763392524108" targetNodeId="5470833354241255897" resolveInfo="main" />
       </node>
@@ -9878,7 +9878,10 @@
     <node role="configurationItems" roleId="vs0r.4459718605982007338" type="k146.ReportingConfiguration" typeId="k146.4459718605982051949" id="5470833354241454733">
       <node role="strategy" roleId="k146.4459718605982051999" type="k146.DoNothingReportingStrategy" typeId="k146.4459718605982051985" id="5470833354241454736" />
     </node>
-    <node role="target" roleId="51wr.5323740605968447026" type="9ebx.Arduino_Uno" typeId="9ebx.6094805849425646631" id="6094805849425661789" />
+    <node role="target" roleId="51wr.5323740605968447026" type="9ebx.Arduino_Uno" typeId="9ebx.6094805849425646631" id="6274253368419437233">
+      <property name="cpuSpeed" nameId="9ebx.6094805849425706899" value="16000000UL" />
+      <property name="mcu" nameId="9ebx.6094805849425706900" value="atmega328p" />
+    </node>
   </root>
   <root id="5470833354241255897">
     <node role="contents" roleId="x27k.6437088627575722833" type="v7ag.InstanceConfiguration" typeId="v7ag.4491876417845649024" id="5470833354241449428">

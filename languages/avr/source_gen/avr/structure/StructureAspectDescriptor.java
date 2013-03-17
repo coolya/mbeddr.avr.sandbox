@@ -18,7 +18,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 0:
         return new CompiledConceptDescriptor("avr.structure.Arduino", "com.mbeddr.core.buildconfig.structure.Platform", false, new String[]{"com.mbeddr.core.buildconfig.structure.Platform"}, new String[]{"cpuSpeed", "mcu"}, new String[]{});
       case 1:
-        return new CompiledConceptDescriptor("avr.structure.Arduino_Uno", "com.mbeddr.core.buildconfig.structure.Platform", false, new String[]{"com.mbeddr.core.buildconfig.structure.Platform"}, new String[]{"test"}, new String[]{});
+        return new CompiledConceptDescriptor("avr.structure.Arduino_Uno", "avr.structure.Arduino", false, new String[]{"avr.structure.Arduino"}, new String[]{}, new String[]{});
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }

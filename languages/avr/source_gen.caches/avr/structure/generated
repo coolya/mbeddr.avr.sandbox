@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="7x22ma12u9vtrpivca696kpbm0t79w1">
+<dependencies version="2" modelHash="3xorpllvgzyng7h1rn62z3m9s7gzu0j">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -24,10 +24,10 @@
     <file name="Avr_Language.java" />
     <file name="StructureAspectDescriptor.java" />
   </common>
-  <source id="6094805849425646631" name="Arduino_Uno" hash="-blgoxe1o48p01od1z1msfoirxhh5sn7">
+  <source id="6094805849425646631" name="Arduino_Uno" hash="-dbq2xb42m0hwtnmnyk7qpkgw2hokqn0">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="6094805849425706897" name="Arduino" hash="-j415tg1aqbvwfla3vm9wvh71gvbn2s">
+  <source id="6094805849425706897" name="Arduino" hash="-bur4nupcs715e7uptcn2h8umlvr2plw">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
 </dependencies>

@@ -30,12 +30,12 @@ struct Pins_compdata_Pause {
 int32_t field_amount;
 };
 
-struct Pins___interface_OutputPin {
-  void (*toggle)(void*);
-};
-
 struct Pins___interface_Delay {
   void (*delay)(void*);
+};
+
+struct Pins___interface_OutputPin {
+  void (*toggle)(void*);
 };
 
 struct Pins_compdata_InfinityBlinker {

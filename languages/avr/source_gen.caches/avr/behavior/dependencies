@@ -6,8 +6,12 @@
     <classNode dependClassName="java.lang.String" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="avr.behavior.Arduino_Uno_Behavior" file="Arduino_Uno_Behavior.java">
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+  </dependency>
   <dependency className="avr.behavior.Arduino_Uno_BehaviorDescriptor" file="Arduino_Uno_BehaviorDescriptor.java">
-    <classNode dependClassName="com.mbeddr.core.buildconfig.behavior.Platform_BehaviorDescriptor" />
+    <classNode dependClassName="avr.behavior.Arduino_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />

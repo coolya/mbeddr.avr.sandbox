@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="Arduino_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="avr.behavior.Arduino_BehaviorDescriptor" />
-  <unitInfo fileName="Arduino_Uno_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="avr.behavior.Arduino_Uno_BehaviorDescriptor" />
+  <unitInfo fileName="Arduino_Uno_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="avr.behavior.Arduino_Uno_BehaviorDescriptor" />
   <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="24" endPosition="0" unitName="avr.behavior.BehaviorAspectDescriptor" />
+  <root nodeId="6094805849425718279" modelId="r:807f95b3-3f92-4cc0-b778-077d81c89ef9(avr.behavior)">
+    <nodeInfo nodeId="6094805849425718282" fileName="Arduino_Uno_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6094805849425718316" fileName="Arduino_Uno_Behavior.java" startLine="10" startPosition="64" endLine="11" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6094805849425718279" fileName="Arduino_Uno_Behavior.java" startLine="8" startPosition="35" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <scopeInfo nodeId="6094805849425718281" fileName="Arduino_Uno_Behavior.java" startLine="9" startPosition="43" endLine="11" endPosition="59" />
+    <scopeInfo nodeId="6094805849425718279" fileName="Arduino_Uno_Behavior.java" startLine="8" startPosition="35" endLine="13" endPosition="0">
+      <varInfo nodeId="6094805849425718279" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="6094805849425718279" fileName="Arduino_Uno_Behavior.java" startLine="8" startPosition="0" endLine="14" endPosition="0" unitName="avr.behavior.Arduino_Uno_Behavior" />
+  </root>
 </debugInfo>
 
