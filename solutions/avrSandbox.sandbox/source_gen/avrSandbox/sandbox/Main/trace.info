@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeId="5470833354241255897" modelId="r:8e607e5c-6eec-4ea8-8842-e99306148e1a(avrSandbox.sandbox.Main)">
+    <nodeInfo nodeId="5470833354241255928" fileName="main.c" startLine="9" startPosition="2" endLine="9" endPosition="2" conceptFqName="com.mbeddr.core.statements.structure.Statement" />
+    <nodeInfo nodeId="5470833354241255929" fileName="main.c" startLine="10" startPosition="2" endLine="10" endPosition="11" conceptFqName="com.mbeddr.core.modules.structure.ReturnStatement" />
+    <nodeInfo nodeId="5470833354241255930" fileName="main.c" startLine="10" startPosition="9" endLine="10" endPosition="10" conceptFqName="com.mbeddr.core.expressions.structure.NumberLiteral" />
+    <nodeInfo nodeId="5470833354241255927" fileName="main.c" startLine="8" startPosition="0" endLine="12" endPosition="0" conceptFqName="com.mbeddr.core.statements.structure.StatementList" />
+    <nodeInfo nodeId="5470833354241255926" fileName="main.c" startLine="7" startPosition="0" endLine="13" endPosition="0" conceptFqName="com.mbeddr.core.modules.structure.Function" propertyString="main" />
+    <nodeInfo nodeId="5470833354241255897" fileName="main.h" startLine="15" startPosition="0" endLine="16" endPosition="0" conceptFqName="com.mbeddr.core.modules.structure.FunctionPrototype" propertyString="avrSandbox.sandbox.Main.main" />
+    <unitInfo nodeId="5470833354241255897" fileName="main.c" startLine="1" startPosition="0" endLine="14" endPosition="0" unitName="avrSandbox.sandbox.Main.main" />
+  </root>
+</debugInfo>
+

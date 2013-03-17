@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="avrSandbox.sandbox.Main.Makefile" file="Makefile" />
+  <dependency className="avrSandbox.sandbox.Main.main" file="main.c" />
+  <dependency className="avrSandbox.sandbox.Main.main" file="main.h" />
+</dependenciesRoot>
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="boy3htmvrg009koz35aqylrajru6c0u">
+  <dep model="r:5502bfb4-a967-4ca4-be6d-8754034c6d99(com.mbeddr.core.buildconfig.generator.template.main@generator)" />
+  <dep model="r:5f62df63-885f-42f0-80d6-e13ad6c51489(com.mbeddr.core.modules.gen.generator.template.main@generator)" />
+  <common hash="e7gya5vujfopk9h8v7m0tplrhyehzpr">
+    <dep model="r:5502bfb4-a967-4ca4-be6d-8754034c6d99(com.mbeddr.core.buildconfig.generator.template.main@generator)" />
+    <dep model="r:5f62df63-885f-42f0-80d6-e13ad6c51489(com.mbeddr.core.modules.gen.generator.template.main@generator)" />
+    <file name="Makefile" />
+    <file name="avr_common" />
+    <file name="avr_fuse" />
+    <file name="avr_io" />
+    <file name="avr_iom328p" />
+    <file name="avr_lock" />
+    <file name="avr_portpins" />
+    <file name="avr_sfr_defs" />
+    <file name="avr_version" />
+    <file name="inttypes" />
+    <file name="main.c" />
+    <file name="main.h" />
+    <file name="stdint" />
+    <file name="util_delay" />
+    <file name="util_delay_basic" />
+  </common>
+  <source id="5470833354241248455" name="Header Import avrSandbox.sandbox.Main" hash="-ep1imzjt5s0fbzrpdp4nbkxle4udo2g" />
+  <source id="5470833354241250747" name="util_crc16" hash="1bl81bha9p2mz02ih56aval5iwhc4k8" />
+  <source id="5470833354241250750" name="util_setbaud" hash="-cf5yk6rix67sqf8a7a3zmm47wtkyvdq" />
+  <source id="5470833354241250765" name="util_delay_basic" hash="-bgur8ot38b1muixbqgkjc3mdky90jgf" />
+  <source id="5470833354241250780" name="util_delay" hash="-dfdq7b2ieo5nhxoszbjgnc2owfzcdbr" />
+  <source id="5470833354241250801" name="util_twi" hash="-cvw02mwpjg20qgonudqnsnfdbzoyysu" />
+  <source id="5470833354241250872" name="util_atomic" hash="-2vkhh8g6f06tdo2261n9fc1l5empvqg" />
+  <source id="5470833354241250893" name="util_parity" hash="c2sd8den8lpn7a1gms6g8p545owvdh5" />
+  <source id="5470833354241253323" name="stdint" hash="-4rv92zlk62k83fjc9x0k13r2flnc2v2" />
+  <source id="5470833354241253576" name="inttypes" hash="702fyb6d32617nceaxeb2xquetf8ykz" />
+  <source id="5470833354241253786" name="avr_fuse" hash="76h25znjow7t9twrkwcqy4rpia9tgpc" />
+  <source id="5470833354241253796" name="avr_lock" hash="-ceye9zs8g23eukfqname416kan8suab" />
+  <source id="5470833354241253808" name="avr_version" hash="6hnu9xkrpfsola5h709ajzvw82g0w08" />
+  <source id="5470833354241253826" name="avr_sfr_defs" hash="1y23tn42xzh9fwal77x64ftfz5zeyxu" />
+  <source id="5470833354241253881" name="avr_iom328p" hash="c0erdfld1j34r0j3uaqqz1qy0iwrmks" />
+  <source id="5470833354241255473" name="avr_portpins" hash="-2cmbod9lf58mi2gvqkqv8b4kb9n251x" />
+  <source id="5470833354241255525" name="avr_common" hash="-6xxmyaahturjhtx7ifcyx6ml0d9ilpb" />
+  <source id="5470833354241255589" name="avr_io" hash="zq8ftdsks9cto6pm3wt385uk5ckydo" />
+  <source id="5470833354241255774" name="BuildConfiguration (avrSandbox.sandbox.Main)" hash="75thl9yagz564gmnsmdlicmrshe6isj" />
+  <source id="5470833354241255776" name="TypeSizeConfiguration (avrSandbox.sandbox.Main)" hash="ddujsw673c5h07zu947klb9o1y6vbog" />
+  <source id="5470833354241255819" name="makefile" hash="-ei5oiv68ny1k9d7crmsxpga43qa747h" />
+  <source id="5470833354241255897" name="main" hash="-5mr5qfzb439xkqtmq28unw3p08dl4w0" />
+</dependencies>
+
