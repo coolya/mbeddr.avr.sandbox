@@ -9,6 +9,12 @@
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="6094805849425646633">
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="9ebx.6094805849425646631" resolveInfo="Arduino_Uno" />
     </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="5513927302055681026">
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="9ebx.5513927302055679456" resolveInfo="DigitalPin" />
+    </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="5513927302055681039">
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="9ebx.5513927302055679450" resolveInfo="PinConfiguration" />
+    </node>
   </roots>
   <root id="6094805849425646633">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="6094805849425646635">
@@ -16,6 +22,44 @@
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="6094805849425646639">
         <property name="text" nameId="tpc2.1073389577007" value="adruino uno" />
       </node>
+    </node>
+  </root>
+  <root id="5513927302055681026">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="5513927302055681028">
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="5513927302055681032">
+        <property name="text" nameId="tpc2.1073389577007" value="digital" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="5513927302055681034">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="9ebx.5513927302055681025" resolveInfo="number" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="5513927302055681038">
+        <property name="text" nameId="tpc2.1073389577007" value="direction =" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="5513927302055681036">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="9ebx.5513927302055681024" resolveInfo="direction" />
+      </node>
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="5513927302055681030" />
+    </node>
+  </root>
+  <root id="5513927302055681039">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="5513927302055681041">
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="5513927302055681044">
+        <property name="text" nameId="tpc2.1073389577007" value="Pin Configuration" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="5513927302055681046">
+        <property name="text" nameId="tpc2.1073389577007" value="-----------------------------------" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="5513927302055681049">
+        <property name="text" nameId="tpc2.1073389577007" value="" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="5513927302055681053">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="9ebx.5513927302055679455" />
+        <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="5513927302055681054" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.SelectableStyleSheetItem" typeId="tpc2.1186414928363" id="5513927302055681055">
+          <property name="flag" nameId="tpc2.1186414551515" value="false" />
+        </node>
+      </node>
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Vertical" typeId="tpc2.1106270571710" id="5513927302055681043" />
     </node>
   </root>
 </model>

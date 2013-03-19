@@ -7,7 +7,7 @@ import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted;
 
 public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor {
-  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"avr.structure.Arduino_Uno"};
+  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"avr.structure.Arduino_Uno", "avr.structure.DigitalPin", "avr.structure.PinConfiguration"};
 
   public BehaviorAspectDescriptor() {
   }
@@ -16,6 +16,10 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
     switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0a, fqName)) {
       case 0:
         return new Arduino_Uno_BehaviorDescriptor();
+      case 2:
+        return new PinConfiguration_BehaviorDescriptor();
+      case 1:
+        return new DigitalPin_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
