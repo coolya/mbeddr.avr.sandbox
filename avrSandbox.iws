@@ -29,27 +29,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="929abc4f-4909-45ee-be19-f9b53a08dfbc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/avr/source_gen/avr/structure/Direction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/avr/source_gen/avr/structure/Direction_PropertySupport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/classes_gen/avr/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/avr/classes_gen/avr/behavior/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/classes_gen/avr/editor/trace.info" afterPath="$PROJECT_DIR$/languages/avr/classes_gen/avr/editor/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/classes_gen/avr/structure/trace.info" afterPath="$PROJECT_DIR$/languages/avr/classes_gen/avr/structure/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/source_gen.caches/avr/behavior/dependencies" afterPath="$PROJECT_DIR$/languages/avr/source_gen.caches/avr/behavior/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/source_gen.caches/avr/behavior/generated" afterPath="$PROJECT_DIR$/languages/avr/source_gen.caches/avr/behavior/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/source_gen.caches/avr/editor/dependencies" afterPath="$PROJECT_DIR$/languages/avr/source_gen.caches/avr/editor/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/source_gen.caches/avr/editor/generated" afterPath="$PROJECT_DIR$/languages/avr/source_gen.caches/avr/editor/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/source_gen.caches/avr/generated" afterPath="$PROJECT_DIR$/languages/avr/source_gen.caches/avr/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/source_gen.caches/avr/generator/template/main/generated" afterPath="$PROJECT_DIR$/languages/avr/source_gen.caches/avr/generator/template/main/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/source_gen.caches/avr/structure/dependencies" afterPath="$PROJECT_DIR$/languages/avr/source_gen.caches/avr/structure/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/source_gen.caches/avr/structure/generated" afterPath="$PROJECT_DIR$/languages/avr/source_gen.caches/avr/structure/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/source_gen/avr/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/avr/source_gen/avr/behavior/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/source_gen/avr/editor/trace.info" afterPath="$PROJECT_DIR$/languages/avr/source_gen/avr/editor/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/source_gen/avr/structure/trace.info" afterPath="$PROJECT_DIR$/languages/avr/source_gen/avr/structure/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avrSandbox.iws" afterPath="$PROJECT_DIR$/avrSandbox.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/languageModels/editor.mps" afterPath="$PROJECT_DIR$/languages/avr/languageModels/editor.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/languageModels/structure.mps" afterPath="$PROJECT_DIR$/languages/avr/languageModels/structure.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/source_gen/avr/behavior/BehaviorAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/avr/source_gen/avr/behavior/BehaviorAspectDescriptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/source_gen/avr/structure/StructureAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/avr/source_gen/avr/structure/StructureAspectDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/avr/source_gen/avr/behavior/DigitalPin_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/avr/source_gen/avr/behavior/IPin_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/avr/source_gen/avr/behavior/PinConfiguration_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/avr/source_gen/avr/editor/DigitalPin_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/avr/source_gen/avr/editor/PinConfiguration_Editor.java" />
     </list>
     <ignored path="avrSandbox.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -132,7 +116,17 @@
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
               <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="163" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node model="r:93992ec2-b968-4eda-beb0-056b8ccda09e(avr.editor)" id="5513927302055681039" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
                 <folded />
               </memento>
               <inspectorMemento viewPositionX="0" viewPositionY="0">
@@ -1040,7 +1034,17 @@
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
           <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="163" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node model="r:93992ec2-b968-4eda-beb0-056b8ccda09e(avr.editor)" id="5513927302055681039" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
             <folded />
           </memento>
           <inspectorMemento viewPositionX="0" viewPositionY="0">
