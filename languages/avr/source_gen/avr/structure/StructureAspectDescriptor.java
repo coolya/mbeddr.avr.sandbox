@@ -8,7 +8,7 @@ import jetbrains.mps.smodel.runtime.impl.CompiledConceptDescriptor;
 import jetbrains.mps.smodel.runtime.interpreted.StructureAspectInterpreted;
 
 public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.StructureAspectDescriptor {
-  private static String[] stringSwitchCases_1htk8d_a0a0a = new String[]{"avr.structure.Arduino", "avr.structure.Arduino_Uno", "avr.structure.DigitalPin", "avr.structure.IPin", "avr.structure.PinConfiguration"};
+  private static String[] stringSwitchCases_1htk8d_a0a0a = new String[]{"avr.structure.AnalogPin", "avr.structure.Arduino", "avr.structure.Arduino_Uno", "avr.structure.DigitalPin", "avr.structure.IPin", "avr.structure.PinConfiguration"};
 
   public StructureAspectDescriptor() {
   }
@@ -16,14 +16,16 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
   public ConceptDescriptor getDescriptor(String conceptFqName) {
     switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0a, conceptFqName)) {
       case 0:
-        return new CompiledConceptDescriptor("avr.structure.Arduino", "com.mbeddr.core.buildconfig.structure.Platform", false, new String[]{"com.mbeddr.core.buildconfig.structure.Platform"}, new String[]{"cpuSpeed", "mcu"}, new String[]{});
+        return new CompiledConceptDescriptor("avr.structure.AnalogPin", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "avr.structure.IPin"}, new String[]{}, new String[]{});
       case 1:
-        return new CompiledConceptDescriptor("avr.structure.Arduino_Uno", "avr.structure.Arduino", false, new String[]{"avr.structure.Arduino"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("avr.structure.Arduino", "com.mbeddr.core.buildconfig.structure.Platform", false, new String[]{"com.mbeddr.core.buildconfig.structure.Platform"}, new String[]{"cpuSpeed", "mcu"}, new String[]{});
       case 2:
-        return new CompiledConceptDescriptor("avr.structure.DigitalPin", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "avr.structure.IPin"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("avr.structure.Arduino_Uno", "avr.structure.Arduino", false, new String[]{"avr.structure.Arduino"}, new String[]{}, new String[]{});
       case 3:
-        return new CompiledConceptDescriptor("avr.structure.IPin", null, true, new String[]{"jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{"direction", "number"}, new String[]{});
+        return new CompiledConceptDescriptor("avr.structure.DigitalPin", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "avr.structure.IPin"}, new String[]{}, new String[]{});
       case 4:
+        return new CompiledConceptDescriptor("avr.structure.IPin", null, true, new String[]{"jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{"direction", "number"}, new String[]{});
+      case 5:
         return new CompiledConceptDescriptor("avr.structure.PinConfiguration", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "com.mbeddr.core.base.structure.IGeneratesCodeForIDE"}, new String[]{}, new String[]{});
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);

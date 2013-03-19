@@ -13,36 +13,36 @@ import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 
-public class DigitalPin_Editor extends DefaultNodeEditor {
+public class AnalogPin_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_ftfetj_a(editorContext, node);
+    return this.createCollection_88aa8j_a(editorContext, node);
   }
 
-  private EditorCell createCollection_ftfetj_a(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_88aa8j_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_ftfetj_a");
-    editorCell.addEditorCell(this.createConstant_ftfetj_a0(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_ftfetj_b0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_ftfetj_c0(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_ftfetj_d0(editorContext, node));
+    editorCell.setCellId("Collection_88aa8j_a");
+    editorCell.addEditorCell(this.createConstant_88aa8j_a0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_88aa8j_b0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_88aa8j_c0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_88aa8j_d0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_ftfetj_a0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_88aa8j_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "pin");
-    editorCell.setCellId("Constant_ftfetj_a0");
+    editorCell.setCellId("Constant_88aa8j_a0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_ftfetj_c0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_88aa8j_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "direction =");
-    editorCell.setCellId("Constant_ftfetj_c0");
+    editorCell.setCellId("Constant_88aa8j_c0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createProperty_ftfetj_b0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_88aa8j_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("number");
     provider.setNoTargetText("<no number>");
@@ -60,7 +60,7 @@ public class DigitalPin_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_ftfetj_d0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_88aa8j_d0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("direction");
     provider.setNoTargetText("<no direction>");

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-dfc4feitfv498n69g0hmz8ts5j9f9fh">
+<dependencies version="2" modelHash="-e4mgnoxsse62wo3tw4nqlean0gq0jxt">
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
@@ -13,10 +13,11 @@
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
   <dep model="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
   <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
-  <common hash="-1721fmrss5ozjwser48004ssfv43v2b">
+  <common hash="-cn1ilew28zze3blfsig66k33ilgxezj">
     <dep root="5513927302055679450" />
     <dep root="5513927302055679451" />
     <dep root="5513927302055679456" />
+    <dep root="5513927302055722189" />
     <dep root="6094805849425646631" />
     <dep root="6094805849425706897" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
@@ -38,16 +39,16 @@
   <source id="6094805849425706897" name="Arduino" hash="-bur4nupcs715e7uptcn2h8umlvr2plw">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="5513927302055679450" name="PinConfiguration" hash="-4ali5qz8fkzekek4p7v7tfgb150mlff">
+  <source id="5513927302055679450" name="PinConfiguration" hash="88j3nw8pnlo3wa4j6z50cbx816d5x08">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="5513927302055679451" name="IPin" hash="-az8jm9bojzqnofucqsvo1fmoxilx17h">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="5513927302055679456" name="DigitalPin" hash="-cy2ugo86mpdhp7e3q3yjf0d25pdy1hy">
+  <source id="5513927302055679456" name="DigitalPin" hash="1jndaaei3hlulvqi7lr9vyg5706ujed">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="5513927302055681018" name="Direction" hash="-5bclu65tfpmn0iozomv7vwurrx6qxj5">
+  <source id="5513927302055681018" name="Direction" hash="-7zueaf5hl33gphfvw82p9finlksf9ax">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
@@ -59,6 +60,9 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="Direction.java" />
     <file name="Direction_PropertySupport.java" />
+  </source>
+  <source id="5513927302055722189" name="AnalogPin" hash="-88028p5xyp1git1kb8tq21vifpd6r41">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
 </dependencies>
 

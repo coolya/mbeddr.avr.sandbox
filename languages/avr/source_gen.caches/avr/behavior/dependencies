@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
+  <dependency className="avr.behavior.AnalogPin_BehaviorDescriptor" file="AnalogPin_BehaviorDescriptor.java">
+    <classNode dependClassName="avr.behavior.IPin_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="avr.behavior.Arduino_BehaviorDescriptor" file="Arduino_BehaviorDescriptor.java">
     <classNode dependClassName="com.mbeddr.core.buildconfig.behavior.Platform_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
@@ -17,6 +27,7 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="avr.behavior.BehaviorAspectDescriptor" file="BehaviorAspectDescriptor.java">
+    <classNode dependClassName="avr.behavior.AnalogPin_BehaviorDescriptor" />
     <classNode dependClassName="avr.behavior.Arduino_Uno_BehaviorDescriptor" />
     <classNode dependClassName="avr.behavior.DigitalPin_BehaviorDescriptor" />
     <classNode dependClassName="avr.behavior.PinConfiguration_BehaviorDescriptor" />

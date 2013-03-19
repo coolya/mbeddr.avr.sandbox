@@ -7,13 +7,14 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 
 public enum Direction {
-  Input("Input", false),
-  Output("Output", false);
+  None("None", 0),
+  Input("Input", 1),
+  Output("Output", 2);
 
   private String myName;
-  private boolean myValue;
+  private int myValue;
 
-  Direction(String name, boolean value) {
+  Direction(String name, int value) {
     this.myName = name;
     this.myValue = value;
   }
@@ -26,24 +27,28 @@ public enum Direction {
     return "" + this.myValue;
   }
 
-  public boolean getValue() {
+  public int getValue() {
     return this.myValue;
   }
 
   public static List<Direction> getConstants() {
     List<Direction> list = ListSequence.fromList(new LinkedList<Direction>());
+    ListSequence.fromList(list).addElement(Direction.None);
     ListSequence.fromList(list).addElement(Direction.Input);
     ListSequence.fromList(list).addElement(Direction.Output);
     return list;
   }
 
   public static Direction getDefault() {
-    return Direction.Input;
+    return Direction.None;
   }
 
   public static Direction parseValue(String value) {
     if (value == null) {
       return Direction.getDefault();
+    }
+    if (value.equals(Direction.None.getValueAsString())) {
+      return Direction.None;
     }
     if (value.equals(Direction.Input.getValueAsString())) {
       return Direction.Input;

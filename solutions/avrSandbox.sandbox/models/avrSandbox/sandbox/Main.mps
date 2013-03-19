@@ -17,7 +17,7 @@
   <import index="p7vm" modelUID="r:28fa862e-f94d-4c39-bdf7-a4bdbc773888(com.mbeddr.ext.components.gen_nomw.structure)" version="0" implicit="yes" />
   <import index="vs0r" modelUID="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" version="6" implicit="yes" />
   <import index="k146" modelUID="r:5209fc71-bade-45c9-9079-f2d474f0d6ca(com.mbeddr.core.util.structure)" version="3" implicit="yes" />
-  <import index="9ebx" modelUID="r:8f8c094e-d406-495f-b231-d81af5e033c6(avr.structure)" version="0" implicit="yes" />
+  <import index="9ebx" modelUID="r:8f8c094e-d406-495f-b231-d81af5e033c6(avr.structure)" version="1" implicit="yes" />
   <roots>
     <node type="punb.HeaderImportSpecHFile" typeId="punb.7097640331099443677" id="5470833354241248455">
       <property name="includeDir" nameId="punb.7097640331099443678" value="/home/kolja/MPSProjects/avrSandbox/include" />
@@ -101,6 +101,7 @@
       <property name="name" nameId="tpck.1169194664001" value="Pins" />
     </node>
     <node type="mj1l.TypeSizeConfiguration" typeId="mj1l.3335993110369795380" id="5470833354241477524" />
+    <node type="9ebx.PinConfiguration" typeId="9ebx.5513927302055679450" id="5513927302055725665" />
   </roots>
   <root id="5470833354241248455">
     <node role="headerFiles" roleId="punb.3907424226054663630" type="punb.HeaderFile" typeId="punb.3907424226054658969" id="5470833354241248456">
@@ -10406,6 +10407,72 @@
         <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
         <property name="const" nameId="mj1l.2941277002445651368" value="false" />
       </node>
+    </node>
+  </root>
+  <root id="5513927302055725665">
+    <node role="analogPins" roleId="9ebx.5513927302055722191" type="9ebx.AnalogPin" typeId="9ebx.5513927302055722189" id="5513927302055725666">
+      <property name="number" nameId="9ebx.5513927302055681025" value="0" />
+      <property name="direction" nameId="9ebx.5513927302055681024" value="1" />
+    </node>
+    <node role="analogPins" roleId="9ebx.5513927302055722191" type="9ebx.AnalogPin" typeId="9ebx.5513927302055722189" id="5513927302055728197">
+      <property name="number" nameId="9ebx.5513927302055681025" value="1" />
+      <property name="direction" nameId="9ebx.5513927302055681024" value="2" />
+    </node>
+    <node role="analogPins" roleId="9ebx.5513927302055722191" type="9ebx.AnalogPin" typeId="9ebx.5513927302055722189" id="5513927302055728198">
+      <property name="number" nameId="9ebx.5513927302055681025" value="2" />
+    </node>
+    <node role="analogPins" roleId="9ebx.5513927302055722191" type="9ebx.AnalogPin" typeId="9ebx.5513927302055722189" id="5513927302055728199">
+      <property name="number" nameId="9ebx.5513927302055681025" value="3" />
+    </node>
+    <node role="analogPins" roleId="9ebx.5513927302055722191" type="9ebx.AnalogPin" typeId="9ebx.5513927302055722189" id="5513927302055728200">
+      <property name="number" nameId="9ebx.5513927302055681025" value="4" />
+    </node>
+    <node role="analogPins" roleId="9ebx.5513927302055722191" type="9ebx.AnalogPin" typeId="9ebx.5513927302055722189" id="5513927302055728202">
+      <property name="number" nameId="9ebx.5513927302055681025" value="5" />
+    </node>
+    <node role="digitalPins" roleId="9ebx.5513927302055679455" type="9ebx.DigitalPin" typeId="9ebx.5513927302055679456" id="5513927302055725667">
+      <property name="number" nameId="9ebx.5513927302055681025" value="0" />
+      <property name="direction" nameId="9ebx.5513927302055681024" value="1" />
+    </node>
+    <node role="digitalPins" roleId="9ebx.5513927302055679455" type="9ebx.DigitalPin" typeId="9ebx.5513927302055679456" id="5513927302055725668">
+      <property name="number" nameId="9ebx.5513927302055681025" value="1" />
+    </node>
+    <node role="digitalPins" roleId="9ebx.5513927302055679455" type="9ebx.DigitalPin" typeId="9ebx.5513927302055679456" id="5513927302055725669">
+      <property name="number" nameId="9ebx.5513927302055681025" value="2" />
+      <property name="direction" nameId="9ebx.5513927302055681024" value="2" />
+    </node>
+    <node role="digitalPins" roleId="9ebx.5513927302055679455" type="9ebx.DigitalPin" typeId="9ebx.5513927302055679456" id="5513927302055725670">
+      <property name="number" nameId="9ebx.5513927302055681025" value="3" />
+    </node>
+    <node role="digitalPins" roleId="9ebx.5513927302055679455" type="9ebx.DigitalPin" typeId="9ebx.5513927302055679456" id="5513927302055725671">
+      <property name="number" nameId="9ebx.5513927302055681025" value="4" />
+    </node>
+    <node role="digitalPins" roleId="9ebx.5513927302055679455" type="9ebx.DigitalPin" typeId="9ebx.5513927302055679456" id="5513927302055725672">
+      <property name="number" nameId="9ebx.5513927302055681025" value="5" />
+    </node>
+    <node role="digitalPins" roleId="9ebx.5513927302055679455" type="9ebx.DigitalPin" typeId="9ebx.5513927302055679456" id="5513927302055725673">
+      <property name="number" nameId="9ebx.5513927302055681025" value="6" />
+    </node>
+    <node role="digitalPins" roleId="9ebx.5513927302055679455" type="9ebx.DigitalPin" typeId="9ebx.5513927302055679456" id="5513927302055725674">
+      <property name="number" nameId="9ebx.5513927302055681025" value="7" />
+    </node>
+    <node role="digitalPins" roleId="9ebx.5513927302055679455" type="9ebx.DigitalPin" typeId="9ebx.5513927302055679456" id="5513927302055725675">
+      <property name="number" nameId="9ebx.5513927302055681025" value="8" />
+    </node>
+    <node role="digitalPins" roleId="9ebx.5513927302055679455" type="9ebx.DigitalPin" typeId="9ebx.5513927302055679456" id="5513927302055725676">
+      <property name="number" nameId="9ebx.5513927302055681025" value="9" />
+    </node>
+    <node role="digitalPins" roleId="9ebx.5513927302055679455" type="9ebx.DigitalPin" typeId="9ebx.5513927302055679456" id="5513927302055725677">
+      <property name="number" nameId="9ebx.5513927302055681025" value="10" />
+    </node>
+    <node role="digitalPins" roleId="9ebx.5513927302055679455" type="9ebx.DigitalPin" typeId="9ebx.5513927302055679456" id="5513927302055725678">
+      <property name="number" nameId="9ebx.5513927302055681025" value="11" />
+    </node>
+    <node role="digitalPins" roleId="9ebx.5513927302055679455" type="9ebx.DigitalPin" typeId="9ebx.5513927302055679456" id="5513927302055725679">
+      <property name="number" nameId="9ebx.5513927302055681025" value="12" />
+    </node>
+    <node role="digitalPins" roleId="9ebx.5513927302055679455" type="9ebx.DigitalPin" typeId="9ebx.5513927302055679456" id="5513927302055725680">
+      <property name="number" nameId="9ebx.5513927302055681025" value="13" />
     </node>
   </root>
 </model>
