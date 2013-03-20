@@ -30,19 +30,11 @@
   <component name="ChangeListManager">
     <list default="true" id="929abc4f-4909-45ee-be19-f9b53a08dfbc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/classes_gen/avr/editor/trace.info" afterPath="$PROJECT_DIR$/languages/avr/classes_gen/avr/editor/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/source_gen.caches/avr/behavior/generated" afterPath="$PROJECT_DIR$/languages/avr/source_gen.caches/avr/behavior/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/source_gen.caches/avr/constraints/generated" afterPath="$PROJECT_DIR$/languages/avr/source_gen.caches/avr/constraints/generated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/source_gen.caches/avr/editor/dependencies" afterPath="$PROJECT_DIR$/languages/avr/source_gen.caches/avr/editor/dependencies" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/source_gen.caches/avr/editor/generated" afterPath="$PROJECT_DIR$/languages/avr/source_gen.caches/avr/editor/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/source_gen.caches/avr/structure/generated" afterPath="$PROJECT_DIR$/languages/avr/source_gen.caches/avr/structure/generated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/source_gen/avr/editor/trace.info" afterPath="$PROJECT_DIR$/languages/avr/source_gen/avr/editor/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avrSandbox.iws" afterPath="$PROJECT_DIR$/avrSandbox.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/avr.mpl" afterPath="$PROJECT_DIR$/languages/avr/avr.mpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/languageModels/behavior.mps" afterPath="$PROJECT_DIR$/languages/avr/languageModels/behavior.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/languageModels/constraints.mps" afterPath="$PROJECT_DIR$/languages/avr/languageModels/constraints.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/languageModels/editor.mps" afterPath="$PROJECT_DIR$/languages/avr/languageModels/editor.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/languageModels/structure.mps" afterPath="$PROJECT_DIR$/languages/avr/languageModels/structure.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/source_gen/avr/editor/DigitalPinAction_Editor.java" afterPath="$PROJECT_DIR$/languages/avr/source_gen/avr/editor/DigitalPinAction_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/avr/source_gen/avr/editor/DigitalValueCheck_Editor.java" afterPath="$PROJECT_DIR$/languages/avr/source_gen/avr/editor/DigitalValueCheck_Editor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/models/avrSandbox/sandbox/Main.mps" afterPath="$PROJECT_DIR$/solutions/avrSandbox.sandbox/models/avrSandbox/sandbox/Main.mps" />
     </list>
     <ignored path="avrSandbox.iws" />
@@ -130,7 +122,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="makefile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="makefile" pinned="false" current="true" current-in-tab="true">
         <entry file="mps://avr.generator.template.main@generator/makefile">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -208,7 +200,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main" pinned="false" current="false" current-in-tab="false">
         <entry file="mps://avrSandbox.sandbox.Main/main">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -217,10 +209,10 @@
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
                     <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="47" />
+                    <property name="caretX" value="63" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_7h2wce_a" cellNumber="0" isInList="false">
-                      <node model="r:8e607e5c-6eec-4ea8-8842-e99306148e1a(avrSandbox.sandbox.Main)" id="5513927302055867430" />
+                    <cellInfo cellId="ReadOnlyModelAccessor_u338ov_a2a" cellNumber="0" isInList="false">
+                      <node model="r:8e607e5c-6eec-4ea8-8842-e99306148e1a(avrSandbox.sandbox.Main)" id="5513927302055823182" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -234,8 +226,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PinConfiguration" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://avr.structure/PinConfiguration">
+      <file leaf-file-name="DigitalValueCheck" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://avr.structure/DigitalValueCheck">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
               <memento viewPositionX="0" viewPositionY="0">
@@ -246,7 +238,7 @@
                 <selectionStack />
                 <folded />
               </inspectorMemento>
-              <node nodeId="5513927302055679450" modelId="r:8f8c094e-d406-495f-b231-d81af5e033c6(avr.structure)" />
+              <node nodeId="5513927302055802220" modelId="r:93992ec2-b968-4eda-beb0-056b8ccda09e(avr.editor)" />
             </state>
           </provider>
         </entry>
@@ -872,38 +864,6 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://avrSandbox.sandbox.Main/Header Import avrSandbox.sandbox.Main">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="259" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_value" cellNumber="0" isInList="false">
-                  <node model="r:8e607e5c-6eec-4ea8-8842-e99306148e1a(avrSandbox.sandbox.Main)" id="5470833354241250897" />
-                </cellInfo>
-              </stackElement>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretXRelative" value="-31" />
-                <property name="caretX" value="0" />
-                <property name="sideSelectDirection" value="LEFT" />
-                <cellInfo cellId="Collection_pf983c_a" cellNumber="0" isInList="false">
-                  <node model="r:8e607e5c-6eec-4ea8-8842-e99306148e1a(avrSandbox.sandbox.Main)" id="5470833354241250897" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://avr.generator.template.main@generator/Header Import avr.generator.template.main">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -1064,30 +1024,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://avr.generator.template.main@generator/makefile">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="144" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_y5igai_a0_0" cellNumber="0" isInList="false">
-                  <node model="r:8dbc5af8-8829-42cd-b16f-d4c943419310(avr.generator.template.main@generator)" id="7717755763392611768" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://avr.structure/IPin">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
@@ -1110,21 +1046,6 @@
             <folded />
           </inspectorMemento>
           <node nodeId="5513927302055679451" modelId="r:8f8c094e-d406-495f-b231-d81af5e033c6(avr.structure)" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://avr.structure/DigitalOutput">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-          <node nodeId="5513927302055729084" modelId="r:93992ec2-b968-4eda-beb0-056b8ccda09e(avr.editor)" />
         </state>
       </provider>
     </entry>
@@ -1197,6 +1118,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="mps://avr.structure/DigitalOutput">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </inspectorMemento>
+          <node nodeId="5513927302055729084" modelId="r:93992ec2-b968-4eda-beb0-056b8ccda09e(avr.editor)" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://avr.structure/DigitalValueCheck">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </inspectorMemento>
+          <node nodeId="5513927302055802220" modelId="r:93992ec2-b968-4eda-beb0-056b8ccda09e(avr.editor)" />
+        </state>
+      </provider>
+    </entry>
     <entry file="mps://avrSandbox.sandbox.Main/main">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -1205,10 +1156,34 @@
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
                 <property name="caretXRelative" value="0" />
-                <property name="caretX" value="47" />
+                <property name="caretX" value="63" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_7h2wce_a" cellNumber="0" isInList="false">
-                  <node model="r:8e607e5c-6eec-4ea8-8842-e99306148e1a(avrSandbox.sandbox.Main)" id="5513927302055867430" />
+                <cellInfo cellId="ReadOnlyModelAccessor_u338ov_a2a" cellNumber="0" isInList="false">
+                  <node model="r:8e607e5c-6eec-4ea8-8842-e99306148e1a(avrSandbox.sandbox.Main)" id="5513927302055823182" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://avr.generator.template.main@generator/makefile">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="144" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_y5igai_a0_0" cellNumber="0" isInList="false">
+                  <node model="r:8dbc5af8-8829-42cd-b16f-d4c943419310(avr.generator.template.main@generator)" id="7717755763392611768" />
                 </cellInfo>
               </stackElement>
             </selectionStack>

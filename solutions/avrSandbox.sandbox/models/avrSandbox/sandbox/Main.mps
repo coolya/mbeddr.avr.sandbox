@@ -9994,7 +9994,7 @@
             <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.Statement" typeId="c4fa.4185783222026464515" id="5513927302055805971" />
           </node>
           <node role="condition" roleId="c4fa.6275792049641600984" type="9ebx.DigitalValueCheck" typeId="9ebx.5513927302055802217" id="5513927302055805970">
-            <link role="input" roleId="9ebx.5513927302055802218" targetNodeId="5513927302055818782" resolveInfo="door switch" />
+            <link role="input" roleId="9ebx.5513927302055802218" targetNodeId="5513927302055827963" />
           </node>
         </node>
         <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.Statement" typeId="c4fa.4185783222026464515" id="5513927302055805951" />
