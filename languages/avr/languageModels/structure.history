@@ -12,5 +12,11 @@
     </dependencies>
     <rename id="9ebx.5513927302055679455" type="CHILD" from="ins" to="digitalPins" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="9ebx" modelUID="r:8f8c094e-d406-495f-b231-d81af5e033c6(avr.structure)" version="1" />
+    </dependencies>
+    <rename id="9ebx.5513927302055742041" type="CONCEPT" from="PinAction" to="DigitalPinAction" />
+  </StructureModification>
 </history>
 

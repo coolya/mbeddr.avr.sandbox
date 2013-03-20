@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-e4mgnoxsse62wo3tw4nqlean0gq0jxt">
+<dependencies version="2" modelHash="-2wdxj0i89p6okzybdwh7ayuzf8hwl8v">
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
@@ -10,14 +10,21 @@
   <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
   <dep model="r:b31f1c3c-99aa-4f1e-a329-cba27efb1a6b(com.mbeddr.core.buildconfig.structure)" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+  <dep model="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
   <dep model="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
   <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
-  <common hash="-cn1ilew28zze3blfsig66k33ilgxezj">
+  <common hash="1lvyxc9gl3uu2vpshjretpu07c2y48i">
     <dep root="5513927302055679450" />
     <dep root="5513927302055679451" />
     <dep root="5513927302055679456" />
     <dep root="5513927302055722189" />
+    <dep root="5513927302055729071" />
+    <dep root="5513927302055729083" />
+    <dep root="5513927302055731227" />
+    <dep root="5513927302055733656" />
+    <dep root="5513927302055742041" />
+    <dep root="5513927302055802217" />
     <dep root="6094805849425646631" />
     <dep root="6094805849425706897" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
@@ -28,6 +35,7 @@
     <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
     <dep model="r:b31f1c3c-99aa-4f1e-a329-cba27efb1a6b(com.mbeddr.core.buildconfig.structure)" />
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+    <dep model="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <dep model="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" />
     <file name="Avr_Language.java" />
@@ -42,10 +50,10 @@
   <source id="5513927302055679450" name="PinConfiguration" hash="88j3nw8pnlo3wa4j6z50cbx816d5x08">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="5513927302055679451" name="IPin" hash="-az8jm9bojzqnofucqsvo1fmoxilx17h">
+  <source id="5513927302055679451" name="IPin" hash="2apmt05nygzyj6uhz28dqineph93h0b">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="5513927302055679456" name="DigitalPin" hash="1jndaaei3hlulvqi7lr9vyg5706ujed">
+  <source id="5513927302055679456" name="DigitalPin" hash="86bkxppplpaprgsfmld1tqn7x2gvuif">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="5513927302055681018" name="Direction" hash="-7zueaf5hl33gphfvw82p9finlksf9ax">
@@ -61,7 +69,38 @@
     <file name="Direction.java" />
     <file name="Direction_PropertySupport.java" />
   </source>
-  <source id="5513927302055722189" name="AnalogPin" hash="-88028p5xyp1git1kb8tq21vifpd6r41">
+  <source id="5513927302055722189" name="AnalogPin" hash="4oncpqz0k0wdnnn962zhbigsh1c4hgm">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="5513927302055729071" name="DigitalInput" hash="-2op108n7xc0jvmej6dsvnhjp6lmavij">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="5513927302055729083" name="DigitalOutput" hash="23quog4ovfbmm4smftpkzkcroggo4gc">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="5513927302055731227" name="DigitalNone" hash="-bmwz8vxpmmc66z9yvy37afjzhfk3ua3">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="5513927302055733656" name="AnalogInput" hash="-hk3as7ezge62nnmk7cx4w0czqhhj1j">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="5513927302055742041" name="DigitalPinAction" hash="-7s0avxk56jdivthddya003ycwhxgs16">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="5513927302055787158" name="DigitalValue" hash="-aygt2p3uxf1id39fpxbqty8l21nizwp">
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
+    <file name="DigitalValue.java" />
+    <file name="DigitalValue_PropertySupport.java" />
+  </source>
+  <source id="5513927302055802217" name="DigitalValueCheck" hash="7faa4bhadjxq94e1nsf8qqr3hw92srn">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
 </dependencies>

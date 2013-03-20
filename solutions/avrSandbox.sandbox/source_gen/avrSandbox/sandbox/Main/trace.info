@@ -64,24 +64,34 @@
     <nodeInfo nodeId="5470833354241449461" fileName="main.c" startLine="77" startPosition="2" endLine="77" endPosition="61" conceptFqName="com.mbeddr.core.statements.structure.ExpressionStatement" />
     <nodeInfo nodeId="5470833354241449465" fileName="main.c" startLine="77" startPosition="27" endLine="77" endPosition="59" conceptFqName="com.mbeddr.core.pointers.structure.ReferenceExpr" />
     <nodeInfo nodeId="5470833354241449465" fileName="main.c" startLine="77" startPosition="28" endLine="77" endPosition="59" conceptFqName="com.mbeddr.core.modules.structure.GlobalVarRef" />
-    <nodeInfo nodeId="5470833354241255929" fileName="main.c" startLine="78" startPosition="2" endLine="78" endPosition="11" conceptFqName="com.mbeddr.core.modules.structure.ReturnStatement" />
-    <nodeInfo nodeId="5470833354241255930" fileName="main.c" startLine="78" startPosition="9" endLine="78" endPosition="10" conceptFqName="com.mbeddr.core.expressions.structure.NumberLiteral" />
+    <nodeInfo nodeId="5513927302055787463" fileName="main.c" startLine="78" startPosition="2" endLine="78" endPosition="61" conceptFqName="com.mbeddr.core.statements.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5513927302055818436" fileName="main.c" startLine="79" startPosition="2" endLine="79" endPosition="61" conceptFqName="com.mbeddr.core.statements.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5513927302055818779" fileName="main.c" startLine="80" startPosition="2" endLine="80" endPosition="61" conceptFqName="com.mbeddr.core.statements.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5513927302055823187" fileName="main.c" startLine="81" startPosition="2" endLine="81" endPosition="2" conceptFqName="com.mbeddr.core.statements.structure.Statement" />
+    <nodeInfo nodeId="5513927302055805971" fileName="main.c" startLine="88" startPosition="4" endLine="88" endPosition="4" conceptFqName="com.mbeddr.core.statements.structure.Statement" />
+    <nodeInfo nodeId="5513927302055805951" fileName="main.c" startLine="91" startPosition="2" endLine="91" endPosition="2" conceptFqName="com.mbeddr.core.statements.structure.Statement" />
+    <nodeInfo nodeId="5470833354241255929" fileName="main.c" startLine="92" startPosition="2" endLine="92" endPosition="11" conceptFqName="com.mbeddr.core.modules.structure.ReturnStatement" />
+    <nodeInfo nodeId="5470833354241255930" fileName="main.c" startLine="92" startPosition="9" endLine="92" endPosition="10" conceptFqName="com.mbeddr.core.expressions.structure.NumberLiteral" />
     <nodeInfo nodeId="5470833354241255897" fileName="main.c" startLine="23" startPosition="0" endLine="24" endPosition="0" conceptFqName="com.mbeddr.core.modules.structure.FunctionPrototype" propertyString="avrSandbox.sandbox.Main.wire_instance_myBlinker_output" />
     <nodeInfo nodeId="5470833354241255897" fileName="main.c" startLine="25" startPosition="0" endLine="26" endPosition="0" conceptFqName="com.mbeddr.core.modules.structure.FunctionPrototype" propertyString="avrSandbox.sandbox.Main.wire_instance_myBlinker_pause" />
     <nodeInfo nodeId="5470833354241255897" fileName="main.c" startLine="27" startPosition="0" endLine="28" endPosition="0" conceptFqName="com.mbeddr.core.modules.structure.FunctionPrototype" propertyString="avrSandbox.sandbox.Main.wire_instance_myBlinker_blinker" />
     <nodeInfo nodeId="5470833354241255897" fileName="main.c" startLine="29" startPosition="0" endLine="30" endPosition="0" conceptFqName="com.mbeddr.core.modules.structure.FunctionPrototype" propertyString="avrSandbox.sandbox.Main.instanceconfig_init_myBlinker" />
+    <nodeInfo nodeId="5513927302055823182" fileName="main.c" startLine="83" startPosition="2" endLine="85" endPosition="0" conceptFqName="com.mbeddr.core.statements.structure.StatementList" />
+    <nodeInfo nodeId="5513927302055823181" fileName="main.c" startLine="82" startPosition="2" endLine="85" endPosition="0" conceptFqName="com.mbeddr.core.statements.structure.IfStatement" />
+    <nodeInfo nodeId="5513927302055805968" fileName="main.c" startLine="87" startPosition="2" endLine="90" endPosition="0" conceptFqName="com.mbeddr.core.statements.structure.StatementList" />
     <nodeInfo nodeId="5470833354241255897" fileName="main.c" startLine="32" startPosition="0" endLine="36" endPosition="0" conceptFqName="com.mbeddr.core.statements.structure.StatementList" />
     <nodeInfo nodeId="5470833354241255897" fileName="main.c" startLine="39" startPosition="0" endLine="43" endPosition="0" conceptFqName="com.mbeddr.core.statements.structure.StatementList" />
-    <nodeInfo nodeId="5470833354241255927" fileName="main.c" startLine="75" startPosition="0" endLine="80" endPosition="0" conceptFqName="com.mbeddr.core.statements.structure.StatementList" />
+    <nodeInfo nodeId="5513927302055805967" fileName="main.c" startLine="86" startPosition="2" endLine="90" endPosition="0" conceptFqName="com.mbeddr.core.statements.structure.IfStatement" />
     <nodeInfo nodeId="5470833354241255897" fileName="main.c" startLine="31" startPosition="0" endLine="37" endPosition="0" conceptFqName="com.mbeddr.core.modules.structure.Function" propertyString="main_wire_instance_myBlinker_output" />
     <nodeInfo nodeId="5470833354241255897" fileName="main.c" startLine="38" startPosition="0" endLine="44" endPosition="0" conceptFqName="com.mbeddr.core.modules.structure.Function" propertyString="main_wire_instance_myBlinker_pause" />
-    <nodeInfo nodeId="5470833354241255926" fileName="main.c" startLine="74" startPosition="0" endLine="81" endPosition="0" conceptFqName="com.mbeddr.core.modules.structure.Function" propertyString="main" />
     <nodeInfo nodeId="5470833354241255897" fileName="main.c" startLine="46" startPosition="0" endLine="57" endPosition="0" conceptFqName="com.mbeddr.core.statements.structure.StatementList" />
     <nodeInfo nodeId="5470833354241255897" fileName="main.c" startLine="60" startPosition="0" endLine="72" endPosition="0" conceptFqName="com.mbeddr.core.statements.structure.StatementList" />
     <nodeInfo nodeId="5470833354241255897" fileName="main.c" startLine="45" startPosition="0" endLine="58" endPosition="0" conceptFqName="com.mbeddr.core.modules.structure.Function" propertyString="main_wire_instance_myBlinker_blinker" />
     <nodeInfo nodeId="5470833354241255897" fileName="main.c" startLine="59" startPosition="0" endLine="73" endPosition="0" conceptFqName="com.mbeddr.core.modules.structure.Function" propertyString="main_instanceconfig_init_myBlinker" />
+    <nodeInfo nodeId="5470833354241255927" fileName="main.c" startLine="75" startPosition="0" endLine="94" endPosition="0" conceptFqName="com.mbeddr.core.statements.structure.StatementList" />
+    <nodeInfo nodeId="5470833354241255926" fileName="main.c" startLine="74" startPosition="0" endLine="95" endPosition="0" conceptFqName="com.mbeddr.core.modules.structure.Function" propertyString="main" />
     <nodeInfo nodeId="5470833354241255897" fileName="main.h" startLine="17" startPosition="0" endLine="18" endPosition="0" conceptFqName="com.mbeddr.core.modules.structure.FunctionPrototype" propertyString="avrSandbox.sandbox.Main.main" />
-    <unitInfo nodeId="5470833354241255897" fileName="main.c" startLine="1" startPosition="0" endLine="82" endPosition="0" unitName="avrSandbox.sandbox.Main.main" />
+    <unitInfo nodeId="5470833354241255897" fileName="main.c" startLine="1" startPosition="0" endLine="96" endPosition="0" unitName="avrSandbox.sandbox.Main.main" />
   </root>
   <root nodeId="5470833354241449201" modelId="r:8e607e5c-6eec-4ea8-8842-e99306148e1a(avrSandbox.sandbox.Main)">
     <nodeInfo nodeId="5470833354241449278" fileName="Pins.c" startLine="10" startPosition="2" endLine="10" endPosition="125" conceptFqName="com.mbeddr.core.statements.structure.LocalVariableDeclaration" />

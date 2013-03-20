@@ -75,6 +75,20 @@ void main(void)
 {
   main_instanceconfig_init_myBlinker();
   Pins_InfinityBlinker_run(&main_instance_myBlinker_blinker);
+  <!TextGen not found for 'avr.structure.DigitalPinAction'!>;
+  <!TextGen not found for 'avr.structure.DigitalPinAction'!>;
+  <!TextGen not found for 'avr.structure.DigitalPinAction'!>;
+  
+  if ( <!TextGen not found for 'avr.structure.DigitalValueCheck'!> ) 
+  {
+  }
+
+  if ( <!TextGen not found for 'avr.structure.DigitalValueCheck'!> ) 
+  {
+    
+  }
+
+  
   return 0;
 }
 

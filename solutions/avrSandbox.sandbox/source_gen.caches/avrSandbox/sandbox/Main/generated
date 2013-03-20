@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-27o0dxjko4k6i575hqh17v6wynu67w7">
+<dependencies version="2" modelHash="-7qomneu69771ten4l8o8m9tz0j6e17s">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
   <dep model="r:5f62df63-885f-42f0-80d6-e13ad6c51489(com.mbeddr.core.modules.gen.generator.template.main@generator)" />
   <dep model="r:769ad9a0-f26a-4d17-9cc6-f3ae937bc774(com.mbeddr.ext.components.gen_nomw.generator.template.main@generator)" />
-  <dep model="r:8dbc5af8-8829-42cd-b16f-d4c943419310(avr.generator.template.main@generator)" hash="-3kojsoybhrcsngxxn2y051dc4zv7f0p" />
+  <dep model="r:8dbc5af8-8829-42cd-b16f-d4c943419310(avr.generator.template.main@generator)" hash="-3oc022lrur7cuuyzjoecc8salfrt36w" />
   <dep model="r:9596407c-f27a-49d3-abde-3a66293c5b61(com.mbeddr.ext.components.structure)" />
   <dep model="r:b9b22e10-428b-4f92-963a-8cf564256895(com.mbeddr.ext.components.generator.template.main@generator)" />
-  <common hash="62np0ibw10bc6r20m0grobsybi5dmrw">
+  <common hash="d8amqzhdsti1q4z9wbstk008i00nq4b">
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
     <dep model="r:5f62df63-885f-42f0-80d6-e13ad6c51489(com.mbeddr.core.modules.gen.generator.template.main@generator)" />
@@ -52,11 +52,12 @@
   <source id="5470833354241255525" name="avr_common" hash="-6xxmyaahturjhtx7ifcyx6ml0d9ilpb" />
   <source id="5470833354241255589" name="avr_io" hash="zq8ftdsks9cto6pm3wt385uk5ckydo" />
   <source id="5470833354241255774" name="BuildConfiguration (avrSandbox.sandbox.Main)" hash="9xjkkf98rwlvkw7rzcacm5ubq076d61" />
-  <source id="5470833354241255897" name="main" hash="-9fquembt4hjgnxax377wr9zmxr68nj2" dependsOnNodes="true">
+  <source id="5470833354241255897" name="main" hash="a05ccuyubvo768bxxlv46oqskb7okur" dependsOnNodes="true">
     <dep root="5470833354241449201" />
     <dep model="r:b9b22e10-428b-4f92-963a-8cf564256895(com.mbeddr.ext.components.generator.template.main@generator)" />
   </source>
   <source id="5470833354241449201" name="Pins" hash="cvp43jtk5ay2s0a4yihhhwxcesykp9r" />
   <source id="5470833354241477524" name="TypeSizeConfiguration (avrSandbox.sandbox.Main)" hash="as6gqypsvk6lsf7i8961a0mds0dqxvu" />
+  <source id="5513927302055725665" hash="-7rvz6ijqa4wx1vpbw0nw8a4wnk8pt3q" />
 </dependencies>
 
