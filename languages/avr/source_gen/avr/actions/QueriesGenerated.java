@@ -20,7 +20,26 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getSourceNode(), "name") == null;
   }
 
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_DigitalOutput_5513927302055833350(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    return SPropertyOperations.getString(_context.getSourceNode(), "name") == null;
+  }
+
   public static List<INodeSubstituteAction> sideTransform_ActionsFactory_DigitalInput_5513927302055828162(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
+    {
+      Computable computable = new Computable() {
+        public Object compute() {
+          SPropertyOperations.set(_context.getSourceNode(), "name", "");
+          return _context.getSourceNode();
+        }
+      };
+      SNode node = (SNode) computable.compute();
+      ListSequence.fromList(result).addSequence(ListSequence.fromList(ModelActions.createRightTransformHintSubstituteActions(node, CellSide.RIGHT, _context.getTransformationTag(), operationContext)));
+    }
+    return result;
+  }
+
+  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_DigitalOutput_5513927302055833349(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
     List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
     {
       Computable computable = new Computable() {

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-3oc022lrur7cuuyzjoecc8salfrt36w">
+<dependencies version="2" modelHash="-eh9lcsosfheb1hu4rw5y2n4s1ounw5c">
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
@@ -17,14 +17,15 @@
   <dep model="r:0d8c18c2-3a01-472e-96fe-573575c47352(com.mbeddr.mpsutil.blutil.generator.template.main@generator)" />
   <dep model="r:44ccebce-f3a6-4238-afbf-c4a18f6348c1(com.mbeddr.core.buildconfig.behavior)" />
   <dep model="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
-  <dep model="r:8f8c094e-d406-495f-b231-d81af5e033c6(avr.structure)" hash="ej9isc8f403c15jnw9etbe330xj10tl" />
+  <dep model="r:8f8c094e-d406-495f-b231-d81af5e033c6(avr.structure)" hash="7d3lc7ygmhkt47iiuxdvuqbzk2l2rzi" />
   <dep model="r:b31f1c3c-99aa-4f1e-a329-cba27efb1a6b(com.mbeddr.core.buildconfig.structure)" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
   <dep model="r:d1558b8f-fc9e-4ca7-bb90-70ac789f336e(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.post@generator)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
   <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
-  <common hash="7rtbu64k29k190348lkqqis30xjhhg7">
+  <common hash="7igyczkjxcpla4fjyrdzw4qwpvxp8vr">
+    <dep root="5513927302055849433" />
     <dep root="6094805849425661819" />
     <dep root="6094805849425694225" />
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
@@ -57,6 +58,66 @@
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
   <source id="6094805849425694225" name="makefile" hash="-2e32jc48y16ytm4gkdfl3vwqu1oipor">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="5513927302055849433" name="dummy" hash="2gqrpm4jv2o1bfo2lptgvbtdsn0dbw6">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="5513927302055849437" name="Header Import avr.generator.template.main" hash="-abrfalssrj7hlrlwjruaib1xfyhwhi2">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="5513927302055851897" name="stdint" hash="6k9agaagsgn242cfnhi8ktr9r9rhuut">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="5513927302055852151" name="inttypes" hash="-139g4jtf24bmkefzopji02qz6m1f7l3">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="5513927302055852362" name="avr_fuse" hash="c53qbf8pcgk1e455ds7cf8tt59jfkzi">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="5513927302055852373" name="avr_lock" hash="89tei7ozehn7jhp0sfdhlcapioyb866">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="5513927302055852386" name="avr_version" hash="9p7vn0hj3jemkvq5f9px5qmkrahrli1">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="5513927302055852405" name="avr_sfr_defs" hash="-9dov1rlmxhwqhcoxs1tdjis35m6fceh">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="5513927302055852461" name="avr_iom328p" hash="du8vesqvz3xicv9c08e13k5ck8bp7kj">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="5513927302055854054" name="avr_portpins" hash="-dgkr6t7bfme06fr50p2n21k5oeyaufy">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="5513927302055854107" name="avr_common" hash="dwvgtp6njjmyou77f6zvw1qrnohzi8m">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="5513927302055854172" name="avr_io" hash="-5j7qybcmjqug3w6x2esq8z413h60rr3">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="5513927302055854182" name="util_crc16" hash="-77txbsbxke7def7yumpcx4svnszv6vv">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="5513927302055854186" name="util_setbaud" hash="-4enxrcx6wy9k3kwfhprpakoixjy4rq1">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="5513927302055854202" name="util_delay_basic" hash="5uj6w9x5fk46umpuv0m6lmoe736972z">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="5513927302055854218" name="util_delay" hash="-8q7qodik95h9v5af6owlun424n8bynj">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="5513927302055854240" name="util_twi" hash="-ef7tse16k2gn0gitcdjbz9rxgshazrj">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="5513927302055854312" name="util_atomic" hash="-3jjek00sbcaaqba3htiyecq3uihyyx7">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="5513927302055854334" name="util_parity" hash="aj2nm3386ve5wxboj18qzms2w42np8h">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
+  <source id="5513927302055854396" name="TypeSizeConfiguration (avr.generator.template.main)" hash="bvwk1h1cypi3i65t3n0czunahvo6fb7">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
 </dependencies>
