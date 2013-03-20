@@ -7,7 +7,7 @@ import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 
 public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor {
-  private static String[] stringSwitchCases_2qnle6_a0a0a = new String[]{"avr.structure.DigitalPin"};
+  private static String[] stringSwitchCases_2qnle6_a0a0a = new String[]{"avr.structure.DigitalPin", "avr.structure.PinConfiguration"};
 
   public ConstraintsAspectDescriptor() {
   }
@@ -16,6 +16,8 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
     switch (Arrays.binarySearch(stringSwitchCases_2qnle6_a0a0a, fqName)) {
       case 0:
         return new DigitalPin_Constraints();
+      case 1:
+        return new PinConfiguration_Constraints();
       default:
         // todo: illegal in some cases? 
         return new BaseConstraintsDescriptor(fqName);

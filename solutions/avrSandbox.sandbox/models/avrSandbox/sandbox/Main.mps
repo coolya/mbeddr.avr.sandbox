@@ -10485,9 +10485,6 @@
     <node role="digitalPins" roleId="9ebx.5513927302055679455" type="9ebx.DigitalNone" typeId="9ebx.5513927302055731227" id="5513927302055733654">
       <property name="number" nameId="9ebx.5513927302055681025" value="13" />
     </node>
-    <node role="digitalPins" roleId="9ebx.5513927302055679455" type="9ebx.DigitalInput" typeId="9ebx.5513927302055729071" id="5513927302055856605">
-      <property name="number" nameId="9ebx.5513927302055681025" value="1" />
-    </node>
   </root>
 </model>
 
