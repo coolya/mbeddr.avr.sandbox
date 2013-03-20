@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-2woqmai0ilnalgr3vti1ayrmosepbap">
+<dependencies version="2" modelHash="-bntrek71wqtowo1fu8ixnn3d3p1p1ax">
   <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
   <dep model="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
@@ -13,7 +13,7 @@
   <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
   <dep model="r:3b7ed80f-6cfd-45bc-b051-2f66c620dd27(jetbrains.mps.lang.traceable.structure)" />
   <dep model="r:44ccebce-f3a6-4238-afbf-c4a18f6348c1(com.mbeddr.core.buildconfig.behavior)" />
-  <dep model="r:8f8c094e-d406-495f-b231-d81af5e033c6(avr.structure)" hash="7d3lc7ygmhkt47iiuxdvuqbzk2l2rzi" />
+  <dep model="r:8f8c094e-d406-495f-b231-d81af5e033c6(avr.structure)" hash="-999ud9mqeoxjkn5ylibdue172l5sigs" />
   <dep model="r:9058158e-0926-42f8-8d00-d1d86f1ff722(com.mbeddr.core.debug.behavior)" />
   <dep model="r:95397225-9080-48bc-b1aa-0ce7c4f3d2ce(jetbrains.mps.lang.traceable.behavior)" />
   <dep model="r:b31f1c3c-99aa-4f1e-a329-cba27efb1a6b(com.mbeddr.core.buildconfig.structure)" />
@@ -72,7 +72,7 @@
     <dep model="r:8f8c094e-d406-495f-b231-d81af5e033c6(avr.structure)" />
     <file name="Arduino_Uno_Behavior.java" />
   </source>
-  <source id="5513927302055750573" name="DigitalPin_Behavior" hash="9hzdg95mb009ajtmklgh9gj6dka8xiu">
+  <source id="5513927302055750573" name="DigitalPin_Behavior" hash="-787cudkkfh8toryg4b90zl8etgjiglr">
     <dep model="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />

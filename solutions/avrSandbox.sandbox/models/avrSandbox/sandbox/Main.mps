@@ -9966,29 +9966,27 @@
         <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="5513927302055787463">
           <node role="expr" roleId="c4fa.7254843406768833939" type="9ebx.DigitalPinAction" typeId="9ebx.5513927302055742041" id="5513927302055787464">
             <property name="action" nameId="9ebx.5513927302055787458" value="1" />
-            <link role="pin" roleId="9ebx.5513927302055742095" targetNodeId="5513927302055812308" resolveInfo="flap left" />
+            <link role="pin" roleId="9ebx.5513927302055742095" targetNodeId="5513927302055812308" resolveInfo="red light" />
           </node>
         </node>
-        <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="5513927302055818436">
-          <node role="expr" roleId="c4fa.7254843406768833939" type="9ebx.DigitalPinAction" typeId="9ebx.5513927302055742041" id="5513927302055818437">
-            <link role="pin" roleId="9ebx.5513927302055742095" targetNodeId="5513927302055812308" resolveInfo="flap left" />
+        <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="5513927302055867434">
+          <node role="expr" roleId="c4fa.7254843406768833939" type="9ebx.DigitalPinAction" typeId="9ebx.5513927302055742041" id="5513927302055867435">
+            <link role="pin" roleId="9ebx.5513927302055742095" targetNodeId="5513927302055867432" />
           </node>
         </node>
-        <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="5513927302055818779">
-          <node role="expr" roleId="c4fa.7254843406768833939" type="9ebx.DigitalPinAction" typeId="9ebx.5513927302055742041" id="5513927302055818780">
-            <link role="pin" roleId="9ebx.5513927302055742095" targetNodeId="5513927302055812308" resolveInfo="flap left" />
+        <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.Statement" typeId="c4fa.4185783222026464515" id="5513927302055868447" />
+        <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="5513927302055868445">
+          <node role="expr" roleId="c4fa.7254843406768833939" type="9ebx.DigitalPinAction" typeId="9ebx.5513927302055742041" id="5513927302055868446">
+            <property name="action" nameId="9ebx.5513927302055787458" value="1" />
+            <link role="pin" roleId="9ebx.5513927302055742095" targetNodeId="5513927302055812308" resolveInfo="red light" />
           </node>
         </node>
-        <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="5513927302055842276">
-          <node role="expr" roleId="c4fa.7254843406768833939" type="9ebx.DigitalPinAction" typeId="9ebx.5513927302055742041" id="5513927302055842277">
-            <link role="pin" roleId="9ebx.5513927302055742095" targetNodeId="5513927302055812308" resolveInfo="flap left" />
-          </node>
-        </node>
+        <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.Statement" typeId="c4fa.4185783222026464515" id="5513927302055867430" />
         <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.Statement" typeId="c4fa.4185783222026464515" id="5513927302055823187" />
         <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.IfStatement" typeId="c4fa.6275792049641600983" id="5513927302055823181">
           <node role="thenPart" roleId="c4fa.6275792049641600985" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="5513927302055823182" />
           <node role="condition" roleId="c4fa.6275792049641600984" type="9ebx.DigitalValueCheck" typeId="9ebx.5513927302055802217" id="5513927302055823184">
-            <link role="input" roleId="9ebx.5513927302055802218" targetNodeId="5513927302055818782" resolveInfo="laser beam" />
+            <link role="input" roleId="9ebx.5513927302055802218" targetNodeId="5513927302055818782" resolveInfo="door switch" />
           </node>
         </node>
         <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.IfStatement" typeId="c4fa.6275792049641600983" id="5513927302055805967">
@@ -9996,7 +9994,7 @@
             <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.Statement" typeId="c4fa.4185783222026464515" id="5513927302055805971" />
           </node>
           <node role="condition" roleId="c4fa.6275792049641600984" type="9ebx.DigitalValueCheck" typeId="9ebx.5513927302055802217" id="5513927302055805970">
-            <link role="input" roleId="9ebx.5513927302055802218" targetNodeId="5513927302055818782" resolveInfo="laser beam" />
+            <link role="input" roleId="9ebx.5513927302055802218" targetNodeId="5513927302055818782" resolveInfo="door switch" />
           </node>
         </node>
         <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.Statement" typeId="c4fa.4185783222026464515" id="5513927302055805951" />
@@ -10451,18 +10449,18 @@
       <property name="number" nameId="9ebx.5513927302055681025" value="0" />
     </node>
     <node role="digitalPins" roleId="9ebx.5513927302055679455" type="9ebx.DigitalOutput" typeId="9ebx.5513927302055729083" id="5513927302055812308">
-      <property name="name" nameId="9ebx.5513927302055823191" value="flap left" />
+      <property name="name" nameId="9ebx.5513927302055862860" value="red light" />
       <property name="number" nameId="9ebx.5513927302055681025" value="1" />
     </node>
     <node role="digitalPins" roleId="9ebx.5513927302055679455" type="9ebx.DigitalInput" typeId="9ebx.5513927302055729071" id="5513927302055818782">
       <property name="number" nameId="9ebx.5513927302055681025" value="2" />
-      <property name="name" nameId="9ebx.5513927302055823191" value="laser beam" />
+      <property name="name" nameId="9ebx.5513927302055862860" value="door switch" />
     </node>
     <node role="digitalPins" roleId="9ebx.5513927302055679455" type="9ebx.DigitalInput" typeId="9ebx.5513927302055729071" id="5513927302055827963">
       <property name="number" nameId="9ebx.5513927302055681025" value="3" />
     </node>
-    <node role="digitalPins" roleId="9ebx.5513927302055679455" type="9ebx.DigitalNone" typeId="9ebx.5513927302055731227" id="5513927302055733647">
-      <property name="number" nameId="9ebx.5513927302055681025" value="6" />
+    <node role="digitalPins" roleId="9ebx.5513927302055679455" type="9ebx.DigitalOutput" typeId="9ebx.5513927302055729083" id="5513927302055867432">
+      <property name="number" nameId="9ebx.5513927302055681025" value="4" />
     </node>
     <node role="digitalPins" roleId="9ebx.5513927302055679455" type="9ebx.DigitalNone" typeId="9ebx.5513927302055731227" id="5513927302055733648">
       <property name="number" nameId="9ebx.5513927302055681025" value="7" />
