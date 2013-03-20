@@ -16,4 +16,11 @@ public class DigitalPin_Behavior {
       return SPropertyOperations.getString(thisNode, "name") + " (digital pin " + String.valueOf(SPropertyOperations.getInteger(thisNode, "number")) + ")";
     }
   }
+
+  public static String call_getPort_5513927302055860694(SNode thisNode) {
+    switch (SPropertyOperations.getInteger(thisNode, "number")) {
+      default:
+        return "";
+    }
+  }
 }
