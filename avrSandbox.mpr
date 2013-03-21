@@ -8,8 +8,23 @@
     <projectModules>
       <modulePath path="${project}/languages/avr/avr.mpl" folder="" />
       <modulePath path="${project}/solutions/avrSandbox.sandbox/avrSandbox.sandbox.msd" />
+      <modulePath path="${project}/tests/test.avr.typesystem/test.avr.typesystem.msd" folder="" />
     </projectModules>
     <genConfs />
+  </component>
+  <component name="ProjectLibraryManager">
+    <option name="libraries">
+      <map>
+        <entry key="mbeddr.core">
+          <value>
+            <Library>
+              <option name="name" value="mbeddr.core" />
+              <option name="path" value="${mbeddr.github.core.home}/" />
+            </Library>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" />
   <component name="ProjectVersion">

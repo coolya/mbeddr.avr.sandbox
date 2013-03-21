@@ -10,6 +10,7 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <import index="tpcu" modelUID="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" version="-1" implicit="yes" />
+  <import index="ywuz" modelUID="r:c6ce92e7-5a98-4a6f-866a-ec8b9e945dd8(com.mbeddr.core.expressions.behavior)" version="1" implicit="yes" />
   <roots>
     <node type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="6094805849425718279">
       <link role="concept" roleId="1i04.1225194240799" targetNodeId="9ebx.6094805849425646631" resolveInfo="Arduino_Uno" />
@@ -17,6 +18,10 @@
     <node type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="5513927302055750573">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="pins.digital" />
       <link role="concept" roleId="1i04.1225194240799" targetNodeId="9ebx.5513927302055679456" resolveInfo="DigitalPin" />
+    </node>
+    <node type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="8394512822544375309">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="alternative" />
+      <link role="concept" roleId="1i04.1225194240799" targetNodeId="9ebx.8394512822544317981" resolveInfo="PinRefExpr" />
     </node>
   </roots>
   <root id="6094805849425718279">
@@ -148,6 +153,34 @@
     </node>
     <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="5513927302055750574">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5513927302055750575" />
+    </node>
+  </root>
+  <root id="8394512822544375309">
+    <node role="method" roleId="1i04.1225194240805" type="1i04.ConceptMethodDeclaration" typeId="1i04.1225194472830" id="8394512822544375312">
+      <property name="name" nameId="tpck.1169194664001" value="isLValue" />
+      <link role="overriddenMethod" roleId="1i04.1225194472831" targetNodeId="ywuz.7254843406768839725" resolveInfo="isLValue" />
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="8394512822544375315">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="8394512822544375321">
+          <node role="expression" roleId="tpee.1068581517676" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8394512822544375372">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8394512822544375344">
+              <node role="operand" roleId="tpee.1197027771414" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="8394512822544375323" />
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="8394512822544375350">
+                <link role="link" roleId="tp25.1138056516764" targetNodeId="9ebx.8394512822544317982" />
+              </node>
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_IsInstanceOfOperation" typeId="tp25.1139621453865" id="8394512822544375378">
+              <node role="conceptArgument" roleId="tp25.1177027386292" type="tp25.RefConcept_Reference" typeId="tp25.1177026924588" id="8394512822544375380">
+                <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="9ebx.5513927302055729083" resolveInfo="DigitalOutput" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="returnType" roleId="tpee.1068580123133" type="tpee.BooleanType" typeId="tpee.1070534644030" id="8394512822544375319" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="8394512822544375320" />
+    </node>
+    <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="8394512822544375310">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8394512822544375311" />
     </node>
   </root>
 </model>
